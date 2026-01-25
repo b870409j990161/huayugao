@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>華語 AI 教學實驗室 | Chinese AI Lab</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #2563eb;       /* 科技藍 */
+            --secondary: #10b981;     /* 活力綠 */
+            --dark: #1e293b;          /* 深灰背景 */
+            --light: #f8fafc;         /* 淺白文字 */
+            --card-bg: #ffffff;
+            --text-gray: #64748b;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: #f1f5f9;
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        /* --- Header / Hero Section --- */
+        header {
+            background: linear-gradient(135deg, var(--dark) 0%, var(--primary) 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .hero-icon {
+            font-size: 3rem;
+            margin-bottom: 15px;
+            color: var(--secondary);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* --- Main Container --- */
+        .container {
+            max-width: 1200px;
+            margin: -40px auto 50px; /* 向上重疊 Header */
+            padding: 0 20px;
+            position: relative;
+            z-index: 10;
+        }
+
+        /* --- Tool Grid --- */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        /* --- Card Design --- */
+        .card {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-top: 5px solid transparent;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 30px rgba(0,0,0,0.1);
+        }
+
+        /* Specific border colors for tools */
+        .card.bingo { border-top-color: var(--secondary); }
+        .card.chat { border-top-color: var(--primary); }
+        .card.soon { border-top-color: #cbd5e1; }
+
+        .card-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        .bingo .card-icon { background: #d1fae5; color: var(--secondary); }
+        .chat .card-icon { background: #dbeafe; color: var(--primary); }
+        .soon .card-icon { background: #f1f5f9; color: #94a3b8; }
+
+        .card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            color: var(--text-gray);
+            margin-bottom: 25px;
+            font-size: 0.95rem;
+        }
+
+        .btn {
+            display: inline-block;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 500;
+            text-align: center;
+            transition: background 0.3s;
+        }
+
+        .btn-primary {
+            background-color: var(--dark);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background-color: var(--primary);
+        }
+
+        .btn-disabled {
+            background-color: #e2e8f0;
+            color: #94a3b8;
+            cursor: not-allowed;
+        }
+
+        /* --- Footer --- */
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: var(--text-gray);
+            font-size: 0.9rem;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        footer i {
+            color: #ef4444;
+        }
+
+        /* --- Responsive --- */
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            .container { margin-top: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="hero-icon"><i class="fa-solid fa-robot"></i></div>
+        <h1>華語 AI 教學實驗室</h1>
+        <p class="subtitle">結合 Generative AI 與互動技術，為華語教師打造的高效備課工具箱。</p>
+    </header>
+
+    <div class="container">
+        <div class="grid">
+            
+            <div class="card bingo">
+                <div>
+                    <div class="card-icon">
+                        <i class="fa-solid fa-table-cells"></i>
+                    </div>
+                    <h3>越南風格生詞賓果</h3>
+                    <p>專為大班級設計。輸入生詞即可一鍵生成 20+ 組學生 QR Code。支援 6x6 越南式不規則排列，學生掃碼即玩，無需登入。</p>
+                </div>
+                <a href="bingo.html" class="btn btn-primary" target="_blank">
+                    <i class="fa-solid fa-play"></i> 開始使用
+                </a>
+            </div>
+
+            <div class="card chat">
+                <div>
+                    <div class="card-icon">
+                        <i class="fa-solid fa-comments"></i>
+                    </div>
+                    <h3>AI 情境對話生成器</h3>
+                    <p>輸入語法點與程度（如 TOCFL A2），AI 自動生成 5 種生活情境對話文本與練習題，節省 90% 備課時間。</p>
+                </div>
+                <span class="btn btn-disabled">開發中...</span>
+            </div>
+
+            <div class="card soon">
+                <div>
+                    <div class="card-icon">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+                    <h3>更多工具開發中</h3>
+                    <p>包含聲調視覺化檢測、漢字部件拆解遊戲等工具正在排程中。歡迎老師提供建議。</p>
+                </div>
+                <span class="btn btn-disabled">Coming Soon</span>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>Designed with <i class="fa-solid fa-heart"></i> for TCFL Teachers.</p>
+        <p>&copy; 2024 Chinese AI Lab. Open Source Project.</p>
+    </footer>
+
+</body>
+</html>
