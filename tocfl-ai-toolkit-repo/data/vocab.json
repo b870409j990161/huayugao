@@ -1,0 +1,8 @@
+[
+  {"word": "水果", "level": "A1", "pos": "noun", "situation": ["點菜", "買食物"], "frequency": 0.85, "bopomofo": "ㄕㄨㄟˇ ㄍㄨㄛˇ", "pinyin": "shuǐguǒ"},
+  {"word": "飲料", "level": "A1", "pos": "noun", "situation": ["點菜", "買食物"], "frequency": 0.88, "bopomofo": "ㄧㄣˇ ㄌㄧㄠˋ", "pinyin": "yǐnliào"},
+  {"word": "盤子", "level": "A1", "pos": "noun", "situation": ["描述餐桌"], "frequency": 0.62, "bopomofo": "ㄆㄢˊ ˙ㄗ", "pinyin": "pánzi"},
+  {"word": "筷子", "level": "A1", "pos": "noun", "situation": ["描述餐桌"], "frequency": 0.72, "bopomofo": "ㄎㄨㄞˋ ˙ㄗ", "pinyin": "kuàizi"},
+  {"word": "湯匙", "level": "A1", "pos": "noun", "situation": ["描述餐桌"], "frequency": 0.6, "bopomofo": "ㄊㄤ ㄔˊ", "pinyin": "tāngchí"},
+  {"word": "點菜", "level": "A2", "pos": "verb", "situation": ["點菜"], "frequency": 0.76, "bopomofo": "ㄉㄧㄢˇ ㄘㄞˋ", "pinyin": "diǎncài"}
+]

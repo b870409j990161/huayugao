@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tocfl-ai-toolkit"
+version = "0.2.0"
+description = "TOCFL game-like automatic question generation engine with news retrieval and rewriting"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "OpenAI generated scaffold" }
+]
+dependencies = [
+  "requests>=2.31.0",
+  "beautifulsoup4>=4.12.0"
+]
+
+[project.scripts]
+tocfl-generate = "tocfl_engine.main:cli"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

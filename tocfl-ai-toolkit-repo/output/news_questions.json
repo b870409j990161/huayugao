@@ -1,0 +1,22 @@
+[
+  {
+    "id": "A2-R-11-11-01-9001",
+    "type": "reading",
+    "subtype": "short_passage_comprehension",
+    "level": "A2",
+    "topic_id": "11",
+    "topic_name": "教育",
+    "subtopic_id": "11-01",
+    "subtopic_name": "學習機制",
+    "situation": "上課",
+    "grammar": [],
+    "content": "一所大學今天舉辦文化活動，很多學生一起參加。老師介紹台灣文化，也安排大家做簡單比賽，所以現場很熱鬧。活動結束後，很多學生說學到很多。",
+    "question": "下列哪一個最適合做這篇短文的標題？",
+    "options": ["校園文化活動", "關於學生的通知", "今天的校園生活", "大家的日常習慣"],
+    "answer": 0,
+    "explanation": "短文內容圍繞這個標題展開。",
+    "audio_script": null,
+    "tts_script": {"normal": "一所大學今天舉辦文化活動，很多學生一起參加。老師介紹台灣文化，也安排大家做簡單比賽，所以現場很熱鬧。活動結束後，很多學生說學到很多。", "slow": "一 所 大 學 今 天 舉 辦 文 化 活 動 ， 很 多 學 生 一 起 參 加 。 老 師 介 紹 台 灣 文 化 ， 也 安 排 大 家 做 簡 單 比 賽 ， 所 以 現 場 很 熱 鬧 。 活 動 結 束 後 ， 很 多 學 生 說 學 到 很 多 。"},
+    "metadata": {"source": "news_rewrite", "question_kind": "title", "original_title": "校園文化活動", "rewritten_title": "校園文化活動", "source_url": "https://example.com/news/1", "source_name": "sample", "published": null}
+  }
+]

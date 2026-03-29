@@ -1,0 +1,116 @@
+Metadata-Version: 2.4
+Name: tocfl-ai-toolkit
+Version: 0.1.0
+Summary: TOCFL game-like automatic question generation engine
+Author: OpenAI generated scaffold
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# TOCFL 遊戲化自動出題引擎
+
+這個專案是依據《TOCFL 遊戲化自動出題引擎：完整 JSON 結構與系統規格書整合版》整理成可直接放上 GitHub 的 Python 專案骨架。
+
+## 專案目標
+
+建立一套可擴充的 TOCFL 自動出題引擎，支援：
+
+- 級別：A1、A2、B1、B2
+- 題型：聽力、閱讀
+- 出題條件：topic / subtopic / grammar / question count
+- 遊戲模式：主線闖關、主題練習、模擬考、錯題複習
+- 輸出格式：固定 JSON schema
+
+## 專案結構
+
+```text
+project/
+├─ data/
+│  ├─ tocfl_topics.json
+│  ├─ question_generation_config.json
+│  ├─ question_schema_example.json
+│  ├─ game_mode_config.json
+│  ├─ vocab.json
+│  ├─ grammar.json
+│  └─ templates.json
+├─ src/
+│  └─ tocfl_engine/
+│     ├─ __init__.py
+│     ├─ models.py
+│     ├─ topic_selector.py
+│     ├─ vocab_selector.py
+│     ├─ grammar_selector.py
+│     ├─ template_engine.py
+│     ├─ distractor_generator.py
+│     ├─ question_builder.py
+│     ├─ validator.py
+│     ├─ exporter.py
+│     └─ main.py
+├─ tests/
+│  └─ test_smoke.py
+├─ output/
+├─ .gitignore
+├─ pyproject.toml
+└─ README.md
+```
+
+## 快速開始
+
+### 1. 建立虛擬環境
+
+```bash
+python -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+```
+
+### 2. 安裝
+
+```bash
+pip install -e .
+```
+
+### 3. 產生範例題目
+
+```bash
+tocfl-generate \
+  --type reading \
+  --subtype cloze \
+  --level A2 \
+  --topic-id 02 \
+  --subtopic-id 02-02 \
+  --question-count 3 \
+  --grammar "因為……所以……"
+```
+
+### 4. 輸出檔案
+
+生成結果會寫到 `output/sample_questions.json`。
+
+## 現況說明
+
+這個版本是 **GitHub-ready scaffold**，已包含：
+
+- 核心資料檔 JSON
+- 模組化 Python 架構
+- CLI 入口
+- 基本驗證流程
+- 可運作的 sample output
+
+目前 `vocab.json`、`grammar.json`、`templates.json` 放的是最小可運作樣本。若要正式投入教學與大量生成，建議再補上：
+
+1. 完整 TOCFL 分級詞彙表
+2. 完整語法點資料表
+3. 更多題型模板
+4. 題目品質評分機制
+5. 網路新聞抓取 / 改寫模組
+
+## 後續擴充建議
+
+- 接入新聞抓取與 RAG
+- 增加 TTS / audio pipeline
+- 增加前端遊戲 API
+- 建立錯題回補與學習歷程分析
+- 加入單元測試與 CI
+
+## 授權
+
+可依你的需求改成 MIT 或校內 / 專案專用授權。

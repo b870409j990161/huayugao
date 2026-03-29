@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "game_modes": [
+    {"id": "story_mode", "name": "主線闖關", "description": "依等級與主題逐步解鎖", "question_count_per_stage": 5, "allowed_types": ["listening", "reading"], "allowed_levels": ["A1", "A2", "B1", "B2"]},
+    {"id": "topic_mode", "name": "主題練習", "description": "依 TOCFL 主題分類練習", "question_count_per_stage": 10, "allowed_types": ["listening", "reading"], "allowed_levels": ["A1", "A2", "B1", "B2"]},
+    {"id": "mock_exam_mode", "name": "模擬考模式", "description": "模擬 TOCFL 聽讀測驗", "question_count_per_stage": 30, "allowed_types": ["listening", "reading"], "allowed_levels": ["A1", "A2", "B1", "B2"]},
+    {"id": "review_mode", "name": "錯題複習", "description": "針對答錯題目與弱點進行補強", "question_count_per_stage": 10, "allowed_types": ["listening", "reading"], "allowed_levels": ["A1", "A2", "B1", "B2"]}
+  ]
+}

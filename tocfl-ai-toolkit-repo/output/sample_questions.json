@@ -1,0 +1,98 @@
+[
+  {
+    "id": "A2-R-02-02-02-0001",
+    "type": "reading",
+    "subtype": "cloze",
+    "level": "A2",
+    "topic_id": "02",
+    "topic_name": "飲食",
+    "subtopic_id": "02-02",
+    "subtopic_name": "種類與物件",
+    "situation": "點菜",
+    "grammar": [
+      "因為……所以……"
+    ],
+    "content": "桌上有一個飲料、兩個水果，還有一雙點菜。",
+    "question": "下列哪一個最適合填入空格？",
+    "options": [
+      "飲料",
+      "水果",
+      "點菜",
+      "杯子"
+    ],
+    "answer": 0,
+    "explanation": "根據內容可知正確答案是「飲料」。",
+    "audio_script": null,
+    "tts_script": {
+      "normal": "桌上有一個飲料、兩個水果，還有一雙點菜。",
+      "slow": "桌 上 有 一 個 飲 料 、 兩 個 水 果 ， 還 有 一 雙 點 菜 。"
+    },
+    "metadata": {
+      "source": "scaffold_sample"
+    }
+  },
+  {
+    "id": "A2-R-02-02-02-0002",
+    "type": "reading",
+    "subtype": "cloze",
+    "level": "A2",
+    "topic_id": "02",
+    "topic_name": "飲食",
+    "subtopic_id": "02-02",
+    "subtopic_name": "種類與物件",
+    "situation": "點菜",
+    "grammar": [
+      "因為……所以……"
+    ],
+    "content": "桌上有一個飲料、兩個水果，還有一雙點菜。",
+    "question": "下列哪一個最適合填入空格？",
+    "options": [
+      "飲料",
+      "水果",
+      "點菜",
+      "杯子"
+    ],
+    "answer": 0,
+    "explanation": "根據內容可知正確答案是「飲料」。",
+    "audio_script": null,
+    "tts_script": {
+      "normal": "桌上有一個飲料、兩個水果，還有一雙點菜。",
+      "slow": "桌 上 有 一 個 飲 料 、 兩 個 水 果 ， 還 有 一 雙 點 菜 。"
+    },
+    "metadata": {
+      "source": "scaffold_sample"
+    }
+  },
+  {
+    "id": "A2-R-02-02-02-0003",
+    "type": "reading",
+    "subtype": "cloze",
+    "level": "A2",
+    "topic_id": "02",
+    "topic_name": "飲食",
+    "subtopic_id": "02-02",
+    "subtopic_name": "種類與物件",
+    "situation": "點菜",
+    "grammar": [
+      "因為……所以……"
+    ],
+    "content": "桌上有一個飲料、兩個水果，還有一雙點菜。",
+    "question": "下列哪一個最適合填入空格？",
+    "options": [
+      "飲料",
+      "水果",
+      "點菜",
+      "杯子"
+    ],
+    "answer": 0,
+    "explanation": "根據內容可知正確答案是「飲料」。",
+    "audio_script": null,
+    "tts_script": {
+      "normal": "桌上有一個飲料、兩個水果，還有一雙點菜。",
+      "slow": "桌 上 有 一 個 飲 料 、 兩 個 水 果 ， 還 有 一 雙 點 菜 。"
+    },
+    "metadata": {
+      "source": "scaffold_sample"
+    }
+  }
+]

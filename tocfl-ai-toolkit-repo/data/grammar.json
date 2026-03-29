@@ -1,0 +1,5 @@
+[
+  {"pattern": "先……再……", "level": "A1", "function": "sequence", "templates": ["你先{action1}，再{action2}。"], "example_sentence": "你先洗手，再吃飯。"},
+  {"pattern": "因為……所以……", "level": "A2", "function": "cause_effect", "templates": ["因為{reason}，所以{result}。"], "example_sentence": "因為今天下雨，所以他沒去學校。"},
+  {"pattern": "不但……而且……", "level": "B1", "function": "addition", "templates": ["他不但{action1}，而且{action2}。"], "example_sentence": "他不但會做菜，而且會泡茶。"}
+]

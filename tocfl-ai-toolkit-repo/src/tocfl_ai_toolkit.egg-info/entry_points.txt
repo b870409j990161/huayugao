@@ -1,0 +1,2 @@
+[console_scripts]
+tocfl-generate = tocfl_engine.main:cli

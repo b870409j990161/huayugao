@@ -1,0 +1,175 @@
+{
+  "version": "1.0.0",
+  "name": "TOCFL Topic System",
+  "description": "TOCFL 主題、子情境、適用題型、適用級別設定",
+  "levels": ["A1", "A2", "B1", "B2"],
+  "question_types": {
+    "listening": ["dialogue_comprehension", "short_passage_comprehension", "inference"],
+    "reading": ["sentence_comprehension", "short_passage_comprehension", "cloze", "inference"]
+  },
+  "topics": [
+    {
+      "id": "01",
+      "name": "個人資料",
+      "description": "基本資訊、外貌特徵、個性、經歷、情感、家庭背景",
+      "recommended_levels": ["A1", "A2", "B1"],
+      "recommended_question_types": {
+        "listening": ["dialogue_comprehension"],
+        "reading": ["sentence_comprehension", "short_passage_comprehension"]
+      },
+      "subtopics": [
+        {"id": "01-01", "name": "基本資訊", "keywords": ["國籍", "姓名", "年紀", "性別", "住址", "電話", "聯絡方式"], "scenarios": ["自我介紹", "填寫表格", "認識新朋友"], "recommended_levels": ["A1", "A2"]},
+        {"id": "01-02", "name": "個人描述", "keywords": ["個性", "特徵", "身高", "體重", "語言", "穿著"], "scenarios": ["描述自己", "描述他人", "朋友介紹"], "recommended_levels": ["A1", "A2"]},
+        {"id": "01-03", "name": "經歷與情感", "keywords": ["經驗", "心情", "成就", "比賽", "得獎", "高興", "難過"], "scenarios": ["分享經驗", "表達感受", "談成就"], "recommended_levels": ["A2", "B1", "B2"]},
+        {"id": "01-04", "name": "家庭背景", "keywords": ["爸爸", "媽媽", "哥哥", "姐姐", "弟弟", "妹妹", "家族"], "scenarios": ["介紹家人", "談家庭關係", "家庭故事"], "recommended_levels": ["A1", "A2", "B1"]}
+      ]
+    },
+    {
+      "id": "02",
+      "name": "飲食",
+      "description": "用餐、點餐、食物、飲食文化與議題",
+      "recommended_levels": ["A1", "A2", "B1", "B2"],
+      "recommended_question_types": {
+        "listening": ["dialogue_comprehension", "short_passage_comprehension"],
+        "reading": ["sentence_comprehension", "short_passage_comprehension", "cloze"]
+      },
+      "subtopics": [
+        {"id": "02-01", "name": "用餐環境", "keywords": ["訂位", "餐廳", "服務", "氣氛", "滿意", "餐點"], "scenarios": ["餐廳訂位", "吃飯評論", "店員對話"], "recommended_levels": ["A1", "A2", "B1"]},
+        {"id": "02-02", "name": "種類與物件", "keywords": ["水果", "飲料", "碗", "盤子", "筷子", "刀叉", "湯匙"], "scenarios": ["點菜", "買食物", "描述餐桌"], "recommended_levels": ["A1", "A2"]},
+        {"id": "02-03", "name": "文化與議題", "keywords": ["食譜", "食材", "烹飪", "飲食習慣", "歷史", "美食"], "scenarios": ["介紹料理", "談飲食文化", "比較飲食習慣"], "recommended_levels": ["B1", "B2"]}
+      ]
+    },
+    {
+      "id": "03",
+      "name": "旅行",
+      "description": "交通、問路、方位、地圖、旅遊計畫與政策",
+      "recommended_levels": ["A1", "A2", "B1", "B2"],
+      "recommended_question_types": {
+        "listening": ["dialogue_comprehension", "short_passage_comprehension", "inference"],
+        "reading": ["short_passage_comprehension", "cloze", "inference"]
+      },
+      "subtopics": [
+        {"id": "03-01", "name": "交通資訊", "keywords": ["廣播", "問路", "位置", "方向", "左邊", "右邊", "前面", "後面"], "scenarios": ["問路", "車站廣播", "搭車詢問"], "recommended_levels": ["A1", "A2", "B1"]},
+        {"id": "03-02", "name": "輔助工具", "keywords": ["時刻表", "路線圖", "地圖", "交通工具", "腳踏車", "機車"], "scenarios": ["看時刻表", "查地圖", "選交通工具"], "recommended_levels": ["A2", "B1"]},
+        {"id": "03-03", "name": "計畫與政策", "keywords": ["旅行計畫", "觀光", "城市自行車", "公共政策"], "scenarios": ["安排旅程", "討論觀光政策", "比較交通方案"], "recommended_levels": ["B1", "B2"]}
+      ]
+    },
+    {
+      "id": "04",
+      "name": "閒暇時間與娛樂",
+      "description": "興趣、休閒活動、藝術文化與公共議題",
+      "recommended_levels": ["A1", "A2", "B1", "B2"],
+      "recommended_question_types": {
+        "listening": ["dialogue_comprehension"],
+        "reading": ["short_passage_comprehension", "inference"]
+      },
+      "subtopics": [
+        {"id": "04-01", "name": "個人興趣", "keywords": ["聽音樂", "看電影", "看電視", "跳舞", "運動", "嗜好"], "scenarios": ["談興趣", "週末安排", "邀請活動"], "recommended_levels": ["A1", "A2"]},
+        {"id": "04-02", "name": "文化藝術", "keywords": ["節目表", "導覽", "表演", "收藏", "展覽"], "scenarios": ["看表演", "參觀展覽", "活動介紹"], "recommended_levels": ["A2", "B1"]},
+        {"id": "04-03", "name": "進階議題", "keywords": ["歷史文物", "藝術", "影視", "人文", "建築", "公共政策"], "scenarios": ["評論作品", "文化討論", "政策閱讀"], "recommended_levels": ["B1", "B2"]}
+      ]
+    },
+    {
+      "id": "05",
+      "name": "身體及健康照護",
+      "description": "生病、看醫生、醫療制度與公共衛生",
+      "recommended_levels": ["A1", "A2", "B1", "B2"],
+      "recommended_question_types": {
+        "listening": ["dialogue_comprehension", "short_passage_comprehension"],
+        "reading": ["short_passage_comprehension", "cloze", "inference"]
+      },
+      "subtopics": [
+        {"id": "05-01", "name": "醫療行為", "keywords": ["生病", "看醫生", "掛號", "住院", "開刀", "護理", "器官"], "scenarios": ["門診對話", "症狀描述", "掛號詢問"], "recommended_levels": ["A1", "A2", "B1"]},
+        {"id": "05-02", "name": "制度與技術", "keywords": ["保險", "醫療技術", "醫療體系", "疾病成因"], "scenarios": ["閱讀醫療說明", "討論保險", "健康資訊"], "recommended_levels": ["B1", "B2"]},
+        {"id": "05-03", "name": "公共衛生", "keywords": ["公共衛生", "製藥", "藥效", "政策"], "scenarios": ["健康宣導", "藥品說明", "公共衛生議題"], "recommended_levels": ["B1", "B2"]}
+      ]
+    },
+    {
+      "id": "06",
+      "name": "購物",
+      "description": "日常消費、租賃、服飾、商務交易與經貿議題",
+      "recommended_levels": ["A1", "A2", "B1", "B2"],
+      "recommended_question_types": {
+        "listening": ["dialogue_comprehension"],
+        "reading": ["sentence_comprehension", "short_passage_comprehension", "cloze"]
+      },
+      "subtopics": [
+        {"id": "06-01", "name": "日常消費", "keywords": ["購物", "購票", "買單", "點菜", "租屋", "租物"], "scenarios": ["買東西", "付錢", "租房子", "租腳踏車"], "recommended_levels": ["A1", "A2"]},
+        {"id": "06-02", "name": "服飾產業", "keywords": ["衣服", "鞋子", "帽子", "配件", "時尚", "製作程序"], "scenarios": ["買衣服", "談穿著", "服飾介紹"], "recommended_levels": ["A2", "B1"]},
+        {"id": "06-03", "name": "商務貿易", "keywords": ["錢", "交易", "協商", "談判", "締約", "經貿政策"], "scenarios": ["商務往來", "價格談判", "合約說明"], "recommended_levels": ["B1", "B2"]}
+      ]
+    },
+    {
+      "id": "07",
+      "name": "日常生活",
+      "description": "作息與居家維護",
+      "recommended_levels": ["A1", "A2", "B1"],
+      "recommended_question_types": {
+        "listening": ["dialogue_comprehension"],
+        "reading": ["sentence_comprehension", "short_passage_comprehension", "cloze"]
+      },
+      "subtopics": [
+        {"id": "07-01", "name": "個人作息", "keywords": ["睡覺", "起床", "洗澡", "刷牙", "吃早餐"], "scenarios": ["談作息", "安排時間", "一天生活"], "recommended_levels": ["A1", "A2"]},
+        {"id": "07-02", "name": "環境維護", "keywords": ["打掃", "拖地", "洗碗", "曬衣服", "整理房間"], "scenarios": ["做家事", "分配工作", "描述生活"], "recommended_levels": ["A1", "A2", "B1"]}
+      ]
+    },
+    {
+      "id": "08",
+      "name": "工作",
+      "description": "職業、工作內容、請假、權益與勞工政策",
+      "recommended_levels": ["A2", "B1", "B2"],
+      "recommended_question_types": {
+        "listening": ["dialogue_comprehension", "inference"],
+        "reading": ["short_passage_comprehension", "inference", "cloze"]
+      },
+      "subtopics": [
+        {"id": "08-01", "name": "職務描述", "keywords": ["工作", "職業", "交辦", "休假", "調動"], "scenarios": ["職場對話", "請假", "任務分配"], "recommended_levels": ["A2", "B1"]},
+        {"id": "08-02", "name": "權益與政策", "keywords": ["工作環境", "工作權益", "工安", "工傷", "勞資糾紛", "勞工政策"], "scenarios": ["工作規定", "勞工議題", "政策閱讀"], "recommended_levels": ["B1", "B2"]}
+      ]
+    },
+    {
+      "id": "09",
+      "name": "房屋與家庭、環境",
+      "description": "居家設備、家具、天氣、生態、災害、環境議題",
+      "recommended_levels": ["A1", "A2", "B1", "B2"],
+      "recommended_question_types": {
+        "listening": ["dialogue_comprehension", "short_passage_comprehension"],
+        "reading": ["short_passage_comprehension", "cloze", "inference"]
+      },
+      "subtopics": [
+        {"id": "09-01", "name": "居住設備", "keywords": ["家具", "家電", "客廳", "廚房", "浴室", "公寓", "大廈"], "scenarios": ["介紹房子", "租屋", "房間描述"], "recommended_levels": ["A1", "A2"]},
+        {"id": "09-02", "name": "自然生態", "keywords": ["天氣", "颱風", "下雨", "地震", "動物", "植物"], "scenarios": ["天氣預報", "災害提醒", "自然介紹"], "recommended_levels": ["A1", "A2", "B1"]},
+        {"id": "09-03", "name": "土地開發", "keywords": ["環境保護", "建築法規", "國土政策", "環境開發"], "scenarios": ["環境議題", "政策討論", "建設說明"], "recommended_levels": ["B1", "B2"]}
+      ]
+    },
+    {
+      "id": "10",
+      "name": "與他人的關係",
+      "description": "人際互動、借物、聯絡方式、國際視野",
+      "recommended_levels": ["A1", "A2", "B1", "B2"],
+      "recommended_question_types": {
+        "listening": ["dialogue_comprehension", "inference"],
+        "reading": ["short_passage_comprehension", "sentence_comprehension", "inference"]
+      },
+      "subtopics": [
+        {"id": "10-01", "name": "人際交往", "keywords": ["問候", "宴客", "交友", "借物", "卡片", "親子關係"], "scenarios": ["借東西", "邀請", "朋友互動", "家庭互動"], "recommended_levels": ["A1", "A2", "B1"]},
+        {"id": "10-02", "name": "聯繫方式", "keywords": ["信件", "電郵", "打電話", "簡訊", "聯絡"], "scenarios": ["打電話", "寫信", "發訊息"], "recommended_levels": ["A1", "A2", "B1"]},
+        {"id": "10-03", "name": "國際視野", "keywords": ["國際關係", "國際局勢"], "scenarios": ["新聞閱讀", "國際話題討論"], "recommended_levels": ["B2"]}
+      ]
+    },
+    {
+      "id": "11",
+      "name": "教育",
+      "description": "學習、考試、教養、教育方式、資源與政策",
+      "recommended_levels": ["A1", "A2", "B1", "B2"],
+      "recommended_question_types": {
+        "listening": ["dialogue_comprehension", "short_passage_comprehension"],
+        "reading": ["sentence_comprehension", "short_passage_comprehension", "cloze", "inference"]
+      },
+      "subtopics": [
+        {"id": "11-01", "name": "學習機制", "keywords": ["學習", "考試", "教養", "教育方式", "教育政策"], "scenarios": ["上課", "準備考試", "討論學習方法"], "recommended_levels": ["A1", "A2", "B1", "B2"]},
+        {"id": "11-02", "name": "教育資源", "keywords": ["筆", "尺", "字典", "圖書館", "借書"], "scenarios": ["借書", "買文具", "找學習資源"], "recommended_levels": ["A1", "A2", "B1"]}
+      ]
+    }
+  ]
+}

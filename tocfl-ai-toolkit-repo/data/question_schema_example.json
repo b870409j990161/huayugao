@@ -1,0 +1,27 @@
+{
+  "id": "A2-L-03-01-0001",
+  "type": "listening",
+  "subtype": "dialogue_comprehension",
+  "level": "A2",
+  "topic_id": "03",
+  "topic_name": "旅行",
+  "subtopic_id": "03-01",
+  "subtopic_name": "交通資訊",
+  "situation": "問路",
+  "grammar": ["先……再……"],
+  "content": "男：請問火車站怎麼走？女：你先直走，再左轉，就會看到了。",
+  "question": "男生應該先做什麼？",
+  "options": ["先左轉", "先直走", "先坐車", "先過馬路"],
+  "answer": 1,
+  "explanation": "從女生的回答可知，男生應該先直走，再左轉。",
+  "audio_script": {"speaker_1": "男", "speaker_2": "女"},
+  "tts_script": {
+    "slow": "男：請 問 火 車 站 怎 麼 走？ 女：你 先 直 走，再 左 轉，就 會 看 到 了。",
+    "normal": "男：請問火車站怎麼走？女：你先直走，再左轉，就會看到了。"
+  },
+  "metadata": {
+    "distractor_rules_used": ["same_topic_confusion", "order_reversal"],
+    "estimated_difficulty": 0.42,
+    "source": "auto_generated"
+  }
+}

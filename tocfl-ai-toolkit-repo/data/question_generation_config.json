@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "generator_name": "TOCFL Question Generator",
+  "supported_levels": ["A1", "A2", "B1", "B2"],
+  "supported_types": ["listening", "reading"],
+  "supported_subtypes": {
+    "listening": ["dialogue_comprehension", "short_passage_comprehension", "inference"],
+    "reading": ["sentence_comprehension", "short_passage_comprehension", "cloze", "inference"]
+  },
+  "difficulty_rules": {
+    "A1": {"max_sentence_count": 2, "max_char_count": 30, "max_core_grammar_points": 1, "allow_abstract_topics": false, "allow_inference": false, "vocab_distribution": {"target_level": 0.8, "lower_level": 0.2, "higher_level": 0.0}},
+    "A2": {"max_sentence_count": 3, "max_char_count": 60, "max_core_grammar_points": 1, "allow_abstract_topics": false, "allow_inference": true, "vocab_distribution": {"target_level": 0.75, "lower_level": 0.2, "higher_level": 0.05}},
+    "B1": {"max_sentence_count": 4, "max_char_count": 100, "max_core_grammar_points": 2, "allow_abstract_topics": true, "allow_inference": true, "vocab_distribution": {"target_level": 0.7, "lower_level": 0.2, "higher_level": 0.1}},
+    "B2": {"max_sentence_count": 5, "max_char_count": 180, "max_core_grammar_points": 2, "allow_abstract_topics": true, "allow_inference": true, "vocab_distribution": {"target_level": 0.65, "lower_level": 0.2, "higher_level": 0.15}}
+  },
+  "distractor_rules": [
+    {"id": "same_topic_confusion", "description": "同主題相近詞干擾"},
+    {"id": "time_shift", "description": "時間錯置"},
+    {"id": "order_reversal", "description": "順序顛倒"},
+    {"id": "semantic_near_miss", "description": "語意相近但不正確"},
+    {"id": "role_swap", "description": "人物角色對調"}
+  ],
+  "output_schema": {
+    "required_fields": ["id", "type", "subtype", "level", "topic_id", "topic_name", "subtopic_id", "subtopic_name", "situation", "grammar", "content", "question", "options", "answer", "explanation"],
+    "optional_fields": ["audio_script", "tts_script", "metadata"]
+  }
+}

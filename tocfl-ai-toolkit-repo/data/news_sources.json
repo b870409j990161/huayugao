@@ -1,0 +1,18 @@
+{
+  "rss_sources": [
+    {
+      "id": "cna",
+      "name": "中央社",
+      "rss_url": "https://www.cna.com.tw/rss/ahel.xml",
+      "language": "zh-Hant",
+      "category": "生活"
+    },
+    {
+      "id": "pts",
+      "name": "公視新聞網",
+      "rss_url": "https://news.pts.org.tw/xml/newsfeed.xml",
+      "language": "zh-Hant",
+      "category": "綜合"
+    }
+  ]
+}

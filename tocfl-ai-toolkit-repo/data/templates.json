@@ -1,0 +1,18 @@
+{
+  "reading": {
+    "cloze": [
+      {
+        "content_template": "桌上有一個{word1}、兩個{word2}，還有一雙{word3}。",
+        "question_template": "下列哪一個最適合填入空格？"
+      }
+    ]
+  },
+  "listening": {
+    "dialogue_comprehension": [
+      {
+        "content_template": "男：請幫我拿{word1}。女：好，我也會拿{word2}。",
+        "question_template": "女生會拿什麼？"
+      }
+    ]
+  }
+}
