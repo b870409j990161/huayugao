@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TOCFL Arcade</title>
+    <meta
+      name="description"
+      content="TOCFL multi-mode arcade with tutorials, 500-item banks per mode, local upload updates, and review flow."
+    />
+    <link rel="stylesheet" href="./tocfl-arcade.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">TOCFL Arcade</p>
+          <h1>Six Playable Modes, Tutorial Packs, and Updateable Banks</h1>
+          <p class="hero-copy">
+            Choose a mode, run its 10-question tutorial, then practice from a 500-question bank.
+            Listening, news rewrite, story chapters, review, mock exam, and topic training all share one content pipeline.
+          </p>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span>Total Modes</span>
+            <strong id="stat-modes">0</strong>
+          </div>
+          <div class="stat">
+            <span>Total Questions</span>
+            <strong id="stat-questions">0</strong>
+          </div>
+          <div class="stat">
+            <span>Completed Sessions</span>
+            <strong id="stat-sessions">0</strong>
+          </div>
+          <div class="stat">
+            <span>Wrong Queue</span>
+            <strong id="stat-wrong">0</strong>
+          </div>
+        </div>
+      </header>
+
+      <main class="layout">
+        <aside class="panel sidebar">
+          <div class="section-head">
+            <p class="eyebrow">Library</p>
+            <h2>Content Status</h2>
+          </div>
+          <p id="bank-summary" class="muted-text">Loading question banks...</p>
+          <p id="status-text" class="status-text">Preparing the arcade.</p>
+
+          <div class="uploader">
+            <div class="section-head compact">
+              <p class="eyebrow">Upload</p>
+              <h2>Import Update Bundle</h2>
+            </div>
+            <input id="bundle-input" type="file" accept=".json,application/json" />
+            <button id="clear-bundles-button" class="ghost-button" type="button">Clear Imported Bundles</button>
+            <p class="muted-text">
+              Accepts a JSON bundle with inline packs. Imported packs are stored in local storage and merged into the mode list.
+            </p>
+          </div>
+
+          <div class="uploader">
+            <div class="section-head compact">
+              <p class="eyebrow">Progress</p>
+              <h2>Local Save</h2>
+            </div>
+            <button id="reset-progress-button" class="ghost-button" type="button">Reset Local Progress</button>
+            <p class="muted-text">Use this if you want to restart tutorials and clear the wrong-answer queue.</p>
+          </div>
+        </aside>
+
+        <section class="main">
+          <section class="panel">
+            <div class="section-head">
+              <p class="eyebrow">Modes</p>
+              <h2>Mode Select</h2>
+            </div>
+            <div id="mode-grid" class="mode-grid"></div>
+          </section>
+
+          <section class="panel">
+            <div class="session-head">
+              <div>
+                <p class="eyebrow">Session</p>
+                <h2 id="session-title">No active session</h2>
+              </div>
+              <div class="session-meta">
+                <span id="progress-text">0 / 0</span>
+                <span id="score-text">0 correct</span>
+              </div>
+            </div>
+
+            <div id="empty-state" class="empty-state">
+              Pick any mode card and start with Tutorial or Practice.
+            </div>
+
+            <article id="question-card" class="question-card hidden">
+              <div class="chip-row">
+                <span id="mode-chip" class="chip"></span>
+                <span id="item-chip" class="chip"></span>
+                <span id="type-chip" class="chip"></span>
+              </div>
+
+              <div class="stem-block">
+                <p id="stem-context" class="label-text"></p>
+                <h3 id="stem-title"></h3>
+                <p id="stem-text"></p>
+              </div>
+
+              <div id="audio-panel" class="audio-panel hidden">
+                <p class="label-text">Listening Script</p>
+                <p id="audio-script"></p>
+              </div>
+
+              <div class="stem-block">
+                <p class="label-text">Question</p>
+                <h3 id="question-text"></h3>
+              </div>
+
+              <div id="options-grid" class="options-grid"></div>
+
+              <div id="feedback-panel" class="feedback-panel hidden">
+                <p id="feedback-title" class="feedback-title"></p>
+                <p id="feedback-explanation"></p>
+                <div id="audit-panel" class="audit-panel hidden">
+                  <p class="label-text">Audit Notes</p>
+                  <div id="audit-copy" class="audit-copy"></div>
+                </div>
+              </div>
+
+              <div class="controls">
+                <button id="submit-button" class="primary-button" type="button" disabled>Submit</button>
+                <button id="next-button" class="ghost-button" type="button" disabled>Next</button>
+              </div>
+            </article>
+
+            <section id="result-card" class="result-card hidden">
+              <p class="eyebrow">Result</p>
+              <h2 id="result-title">Session Complete</h2>
+              <p id="result-summary"></p>
+              <ul id="result-list" class="result-list"></ul>
+            </section>
+          </section>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="./tocfl-arcade.js"></script>
+  </body>
+</html>
