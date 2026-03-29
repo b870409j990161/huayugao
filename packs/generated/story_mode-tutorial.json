@@ -1,0 +1,561 @@
+{
+  "packId": "story_mode-tutorial",
+  "mode": "story_mode",
+  "label": "主線闖關",
+  "experience": "tutorial",
+  "itemType": "mixed",
+  "count": 10,
+  "description": "用章節與場景推進的學習任務。",
+  "items": [
+    {
+      "itemCode": "STORY_MODE-T-0001",
+      "tocflLevel": "A2",
+      "tbclLevel": 2,
+      "tocflBand": "進階",
+      "topic": {
+        "topicCode": "01",
+        "topicName": "個人資料",
+        "subtopicCode": "01-01",
+        "subtopicName": "自我介紹"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "inference",
+      "indicator": {
+        "code": "R-story-infer",
+        "description": "能結合情境資訊推論角色的下一步。"
+      },
+      "stem": {
+        "title": "第 1 章任務",
+        "contextSentence": "小安 正在完成主線任務。",
+        "text": "小安 原本計畫今天完成 上課，但臨時收到隊友訊息，說關鍵資料要到晚上才會送到。若現在就出發，可能白跑一趟；若改成先整理其他工作，明天就能直接完成任務。"
+      },
+      "questionText": "根據情境，角色最合理的選擇是什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "立刻放棄任務",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "先整理其他工作，再等資料到齊",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "直接忽略隊友訊息",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "把資料問題交給陌生人處理",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "短文在比較兩種安排後，明顯支持先整理其他工作、避免白跑。"
+    },
+    {
+      "itemCode": "STORY_MODE-T-0002",
+      "tocflLevel": "B1",
+      "tbclLevel": 3,
+      "tocflBand": "高階",
+      "topic": {
+        "topicCode": "02",
+        "topicName": "飲食",
+        "subtopicCode": "02-02",
+        "subtopicName": "餐廳點餐"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "inference",
+      "indicator": {
+        "code": "R-story-infer",
+        "description": "能結合情境資訊推論角色的下一步。"
+      },
+      "stem": {
+        "title": "第 2 章任務",
+        "contextSentence": "美玲 正在完成主線任務。",
+        "text": "美玲 原本計畫今天完成 參加活動，但臨時收到隊友訊息，說關鍵資料要到晚上才會送到。若現在就出發，可能白跑一趟；若改成先整理其他工作，明天就能直接完成任務。"
+      },
+      "questionText": "根據情境，角色最合理的選擇是什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "立刻放棄任務",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "先整理其他工作，再等資料到齊",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "直接忽略隊友訊息",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "把資料問題交給陌生人處理",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "短文在比較兩種安排後，明顯支持先整理其他工作、避免白跑。"
+    },
+    {
+      "itemCode": "STORY_MODE-T-0003",
+      "tocflLevel": "B2",
+      "tbclLevel": 4,
+      "tocflBand": "流利",
+      "topic": {
+        "topicCode": "03",
+        "topicName": "旅行",
+        "subtopicCode": "03-03",
+        "subtopicName": "交通行程"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "inference",
+      "indicator": {
+        "code": "R-story-infer",
+        "description": "能結合情境資訊推論角色的下一步。"
+      },
+      "stem": {
+        "title": "第 3 章任務",
+        "contextSentence": "志明 正在完成主線任務。",
+        "text": "志明 原本計畫今天完成 搭車，但臨時收到隊友訊息，說關鍵資料要到晚上才會送到。若現在就出發，可能白跑一趟；若改成先整理其他工作，明天就能直接完成任務。"
+      },
+      "questionText": "根據情境，角色最合理的選擇是什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "立刻放棄任務",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "先整理其他工作，再等資料到齊",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "直接忽略隊友訊息",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "把資料問題交給陌生人處理",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "短文在比較兩種安排後，明顯支持先整理其他工作、避免白跑。"
+    },
+    {
+      "itemCode": "STORY_MODE-T-0004",
+      "tocflLevel": "A2",
+      "tbclLevel": 2,
+      "tocflBand": "進階",
+      "topic": {
+        "topicCode": "04",
+        "topicName": "購物",
+        "subtopicCode": "04-01",
+        "subtopicName": "商品比較"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "inference",
+      "indicator": {
+        "code": "R-story-infer",
+        "description": "能結合情境資訊推論角色的下一步。"
+      },
+      "stem": {
+        "title": "第 4 章任務",
+        "contextSentence": "佳琪 正在完成主線任務。",
+        "text": "佳琪 原本計畫今天完成 交報告，但臨時收到隊友訊息，說關鍵資料要到晚上才會送到。若現在就出發，可能白跑一趟；若改成先整理其他工作，明天就能直接完成任務。"
+      },
+      "questionText": "根據情境，角色最合理的選擇是什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "立刻放棄任務",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "先整理其他工作，再等資料到齊",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "直接忽略隊友訊息",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "把資料問題交給陌生人處理",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "短文在比較兩種安排後，明顯支持先整理其他工作、避免白跑。"
+    },
+    {
+      "itemCode": "STORY_MODE-T-0005",
+      "tocflLevel": "B1",
+      "tbclLevel": 3,
+      "tocflBand": "高階",
+      "topic": {
+        "topicCode": "05",
+        "topicName": "健康",
+        "subtopicCode": "05-02",
+        "subtopicName": "健康提醒"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "inference",
+      "indicator": {
+        "code": "R-story-infer",
+        "description": "能結合情境資訊推論角色的下一步。"
+      },
+      "stem": {
+        "title": "第 5 章任務",
+        "contextSentence": "大衛 正在完成主線任務。",
+        "text": "大衛 原本計畫今天完成 看醫生，但臨時收到隊友訊息，說關鍵資料要到晚上才會送到。若現在就出發，可能白跑一趟；若改成先整理其他工作，明天就能直接完成任務。"
+      },
+      "questionText": "根據情境，角色最合理的選擇是什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "立刻放棄任務",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "先整理其他工作，再等資料到齊",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "直接忽略隊友訊息",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "把資料問題交給陌生人處理",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "短文在比較兩種安排後，明顯支持先整理其他工作、避免白跑。"
+    },
+    {
+      "itemCode": "STORY_MODE-T-0006",
+      "tocflLevel": "B2",
+      "tbclLevel": 4,
+      "tocflBand": "流利",
+      "topic": {
+        "topicCode": "06",
+        "topicName": "居住",
+        "subtopicCode": "06-03",
+        "subtopicName": "社區生活"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "inference",
+      "indicator": {
+        "code": "R-story-infer",
+        "description": "能結合情境資訊推論角色的下一步。"
+      },
+      "stem": {
+        "title": "第 1 章任務",
+        "contextSentence": "安娜 正在完成主線任務。",
+        "text": "安娜 原本計畫今天完成 買東西，但臨時收到隊友訊息，說關鍵資料要到晚上才會送到。若現在就出發，可能白跑一趟；若改成先整理其他工作，明天就能直接完成任務。"
+      },
+      "questionText": "根據情境，角色最合理的選擇是什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "立刻放棄任務",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "先整理其他工作，再等資料到齊",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "直接忽略隊友訊息",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "把資料問題交給陌生人處理",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "短文在比較兩種安排後，明顯支持先整理其他工作、避免白跑。"
+    },
+    {
+      "itemCode": "STORY_MODE-T-0007",
+      "tocflLevel": "A2",
+      "tbclLevel": 2,
+      "tocflBand": "進階",
+      "topic": {
+        "topicCode": "07",
+        "topicName": "休閒",
+        "subtopicCode": "07-01",
+        "subtopicName": "活動安排"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "inference",
+      "indicator": {
+        "code": "R-story-infer",
+        "description": "能結合情境資訊推論角色的下一步。"
+      },
+      "stem": {
+        "title": "第 2 章任務",
+        "contextSentence": "建宏 正在完成主線任務。",
+        "text": "建宏 原本計畫今天完成 準備展覽，但臨時收到隊友訊息，說關鍵資料要到晚上才會送到。若現在就出發，可能白跑一趟；若改成先整理其他工作，明天就能直接完成任務。"
+      },
+      "questionText": "根據情境，角色最合理的選擇是什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "立刻放棄任務",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "先整理其他工作，再等資料到齊",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "直接忽略隊友訊息",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "把資料問題交給陌生人處理",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "短文在比較兩種安排後，明顯支持先整理其他工作、避免白跑。"
+    },
+    {
+      "itemCode": "STORY_MODE-T-0008",
+      "tocflLevel": "B1",
+      "tbclLevel": 3,
+      "tocflBand": "高階",
+      "topic": {
+        "topicCode": "08",
+        "topicName": "工作",
+        "subtopicCode": "08-02",
+        "subtopicName": "職場任務"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "inference",
+      "indicator": {
+        "code": "R-story-infer",
+        "description": "能結合情境資訊推論角色的下一步。"
+      },
+      "stem": {
+        "title": "第 3 章任務",
+        "contextSentence": "佩珊 正在完成主線任務。",
+        "text": "佩珊 原本計畫今天完成 開會，但臨時收到隊友訊息，說關鍵資料要到晚上才會送到。若現在就出發，可能白跑一趟；若改成先整理其他工作，明天就能直接完成任務。"
+      },
+      "questionText": "根據情境，角色最合理的選擇是什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "立刻放棄任務",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "先整理其他工作，再等資料到齊",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "直接忽略隊友訊息",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "把資料問題交給陌生人處理",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "短文在比較兩種安排後，明顯支持先整理其他工作、避免白跑。"
+    },
+    {
+      "itemCode": "STORY_MODE-T-0009",
+      "tocflLevel": "B2",
+      "tbclLevel": 4,
+      "tocflBand": "流利",
+      "topic": {
+        "topicCode": "09",
+        "topicName": "科技",
+        "subtopicCode": "09-03",
+        "subtopicName": "數位工具"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "inference",
+      "indicator": {
+        "code": "R-story-infer",
+        "description": "能結合情境資訊推論角色的下一步。"
+      },
+      "stem": {
+        "title": "第 4 章任務",
+        "contextSentence": "小安 正在完成主線任務。",
+        "text": "小安 原本計畫今天完成 上課，但臨時收到隊友訊息，說關鍵資料要到晚上才會送到。若現在就出發，可能白跑一趟；若改成先整理其他工作，明天就能直接完成任務。"
+      },
+      "questionText": "根據情境，角色最合理的選擇是什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "立刻放棄任務",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "先整理其他工作，再等資料到齊",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "直接忽略隊友訊息",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "把資料問題交給陌生人處理",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "短文在比較兩種安排後，明顯支持先整理其他工作、避免白跑。"
+    },
+    {
+      "itemCode": "STORY_MODE-T-0010",
+      "tocflLevel": "A2",
+      "tbclLevel": 2,
+      "tocflBand": "進階",
+      "topic": {
+        "topicCode": "10",
+        "topicName": "公共服務",
+        "subtopicCode": "10-01",
+        "subtopicName": "公告通知"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "inference",
+      "indicator": {
+        "code": "R-story-infer",
+        "description": "能結合情境資訊推論角色的下一步。"
+      },
+      "stem": {
+        "title": "第 5 章任務",
+        "contextSentence": "美玲 正在完成主線任務。",
+        "text": "美玲 原本計畫今天完成 參加活動，但臨時收到隊友訊息，說關鍵資料要到晚上才會送到。若現在就出發，可能白跑一趟；若改成先整理其他工作，明天就能直接完成任務。"
+      },
+      "questionText": "根據情境，角色最合理的選擇是什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "立刻放棄任務",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "先整理其他工作，再等資料到齊",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "直接忽略隊友訊息",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "把資料問題交給陌生人處理",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "短文在比較兩種安排後，明顯支持先整理其他工作、避免白跑。"
+    }
+  ]
+}

@@ -1,0 +1,561 @@
+{
+  "packId": "review_mode-tutorial",
+  "mode": "review_mode",
+  "label": "錯題復健",
+  "experience": "tutorial",
+  "itemType": "mixed",
+  "count": 10,
+  "description": "把常錯知識點換情境再練一次。",
+  "items": [
+    {
+      "itemCode": "REVIEW_MODE-T-0001",
+      "tocflLevel": "A2",
+      "tbclLevel": 2,
+      "tocflBand": "進階",
+      "topic": {
+        "topicCode": "01",
+        "topicName": "個人資料",
+        "subtopicCode": "01-01",
+        "subtopicName": "自我介紹"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "remedial_choice",
+      "indicator": {
+        "code": "R-review-fix",
+        "description": "能在簡化情境中重新辨認關鍵資訊。"
+      },
+      "stem": {
+        "title": "錯題重練",
+        "contextSentence": "這是 小安 上次答錯後重新整理的版本。",
+        "text": "老師提醒：先看時間，再看地點，最後才決定要不要改變安排。小安 上次忽略了時間，這次要重新判斷。"
+      },
+      "questionText": "如果要避免再答錯，第一步應該做什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "直接猜最長的選項",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "先確認時間資訊",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "先看自己喜歡哪個答案",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "跳過題幹只看選項",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "題幹清楚說明先看時間，再看地點，因此第一步就是確認時間。"
+    },
+    {
+      "itemCode": "REVIEW_MODE-T-0002",
+      "tocflLevel": "B1",
+      "tbclLevel": 3,
+      "tocflBand": "高階",
+      "topic": {
+        "topicCode": "02",
+        "topicName": "飲食",
+        "subtopicCode": "02-02",
+        "subtopicName": "餐廳點餐"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "remedial_choice",
+      "indicator": {
+        "code": "R-review-fix",
+        "description": "能在簡化情境中重新辨認關鍵資訊。"
+      },
+      "stem": {
+        "title": "錯題重練",
+        "contextSentence": "這是 美玲 上次答錯後重新整理的版本。",
+        "text": "老師提醒：先看時間，再看地點，最後才決定要不要改變安排。美玲 上次忽略了時間，這次要重新判斷。"
+      },
+      "questionText": "如果要避免再答錯，第一步應該做什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "直接猜最長的選項",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "先確認時間資訊",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "先看自己喜歡哪個答案",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "跳過題幹只看選項",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "題幹清楚說明先看時間，再看地點，因此第一步就是確認時間。"
+    },
+    {
+      "itemCode": "REVIEW_MODE-T-0003",
+      "tocflLevel": "B2",
+      "tbclLevel": 4,
+      "tocflBand": "流利",
+      "topic": {
+        "topicCode": "03",
+        "topicName": "旅行",
+        "subtopicCode": "03-03",
+        "subtopicName": "交通行程"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "remedial_choice",
+      "indicator": {
+        "code": "R-review-fix",
+        "description": "能在簡化情境中重新辨認關鍵資訊。"
+      },
+      "stem": {
+        "title": "錯題重練",
+        "contextSentence": "這是 志明 上次答錯後重新整理的版本。",
+        "text": "老師提醒：先看時間，再看地點，最後才決定要不要改變安排。志明 上次忽略了時間，這次要重新判斷。"
+      },
+      "questionText": "如果要避免再答錯，第一步應該做什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "直接猜最長的選項",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "先確認時間資訊",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "先看自己喜歡哪個答案",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "跳過題幹只看選項",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "題幹清楚說明先看時間，再看地點，因此第一步就是確認時間。"
+    },
+    {
+      "itemCode": "REVIEW_MODE-T-0004",
+      "tocflLevel": "A2",
+      "tbclLevel": 2,
+      "tocflBand": "進階",
+      "topic": {
+        "topicCode": "04",
+        "topicName": "購物",
+        "subtopicCode": "04-01",
+        "subtopicName": "商品比較"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "remedial_choice",
+      "indicator": {
+        "code": "R-review-fix",
+        "description": "能在簡化情境中重新辨認關鍵資訊。"
+      },
+      "stem": {
+        "title": "錯題重練",
+        "contextSentence": "這是 佳琪 上次答錯後重新整理的版本。",
+        "text": "老師提醒：先看時間，再看地點，最後才決定要不要改變安排。佳琪 上次忽略了時間，這次要重新判斷。"
+      },
+      "questionText": "如果要避免再答錯，第一步應該做什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "直接猜最長的選項",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "先確認時間資訊",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "先看自己喜歡哪個答案",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "跳過題幹只看選項",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "題幹清楚說明先看時間，再看地點，因此第一步就是確認時間。"
+    },
+    {
+      "itemCode": "REVIEW_MODE-T-0005",
+      "tocflLevel": "B1",
+      "tbclLevel": 3,
+      "tocflBand": "高階",
+      "topic": {
+        "topicCode": "05",
+        "topicName": "健康",
+        "subtopicCode": "05-02",
+        "subtopicName": "健康提醒"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "remedial_choice",
+      "indicator": {
+        "code": "R-review-fix",
+        "description": "能在簡化情境中重新辨認關鍵資訊。"
+      },
+      "stem": {
+        "title": "錯題重練",
+        "contextSentence": "這是 大衛 上次答錯後重新整理的版本。",
+        "text": "老師提醒：先看時間，再看地點，最後才決定要不要改變安排。大衛 上次忽略了時間，這次要重新判斷。"
+      },
+      "questionText": "如果要避免再答錯，第一步應該做什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "直接猜最長的選項",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "先確認時間資訊",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "先看自己喜歡哪個答案",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "跳過題幹只看選項",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "題幹清楚說明先看時間，再看地點，因此第一步就是確認時間。"
+    },
+    {
+      "itemCode": "REVIEW_MODE-T-0006",
+      "tocflLevel": "B2",
+      "tbclLevel": 4,
+      "tocflBand": "流利",
+      "topic": {
+        "topicCode": "06",
+        "topicName": "居住",
+        "subtopicCode": "06-03",
+        "subtopicName": "社區生活"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "remedial_choice",
+      "indicator": {
+        "code": "R-review-fix",
+        "description": "能在簡化情境中重新辨認關鍵資訊。"
+      },
+      "stem": {
+        "title": "錯題重練",
+        "contextSentence": "這是 安娜 上次答錯後重新整理的版本。",
+        "text": "老師提醒：先看時間，再看地點，最後才決定要不要改變安排。安娜 上次忽略了時間，這次要重新判斷。"
+      },
+      "questionText": "如果要避免再答錯，第一步應該做什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "直接猜最長的選項",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "先確認時間資訊",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "先看自己喜歡哪個答案",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "跳過題幹只看選項",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "題幹清楚說明先看時間，再看地點，因此第一步就是確認時間。"
+    },
+    {
+      "itemCode": "REVIEW_MODE-T-0007",
+      "tocflLevel": "A2",
+      "tbclLevel": 2,
+      "tocflBand": "進階",
+      "topic": {
+        "topicCode": "07",
+        "topicName": "休閒",
+        "subtopicCode": "07-01",
+        "subtopicName": "活動安排"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "remedial_choice",
+      "indicator": {
+        "code": "R-review-fix",
+        "description": "能在簡化情境中重新辨認關鍵資訊。"
+      },
+      "stem": {
+        "title": "錯題重練",
+        "contextSentence": "這是 建宏 上次答錯後重新整理的版本。",
+        "text": "老師提醒：先看時間，再看地點，最後才決定要不要改變安排。建宏 上次忽略了時間，這次要重新判斷。"
+      },
+      "questionText": "如果要避免再答錯，第一步應該做什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "直接猜最長的選項",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "先確認時間資訊",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "先看自己喜歡哪個答案",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "跳過題幹只看選項",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "題幹清楚說明先看時間，再看地點，因此第一步就是確認時間。"
+    },
+    {
+      "itemCode": "REVIEW_MODE-T-0008",
+      "tocflLevel": "B1",
+      "tbclLevel": 3,
+      "tocflBand": "高階",
+      "topic": {
+        "topicCode": "08",
+        "topicName": "工作",
+        "subtopicCode": "08-02",
+        "subtopicName": "職場任務"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "remedial_choice",
+      "indicator": {
+        "code": "R-review-fix",
+        "description": "能在簡化情境中重新辨認關鍵資訊。"
+      },
+      "stem": {
+        "title": "錯題重練",
+        "contextSentence": "這是 佩珊 上次答錯後重新整理的版本。",
+        "text": "老師提醒：先看時間，再看地點，最後才決定要不要改變安排。佩珊 上次忽略了時間，這次要重新判斷。"
+      },
+      "questionText": "如果要避免再答錯，第一步應該做什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "直接猜最長的選項",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "先確認時間資訊",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "先看自己喜歡哪個答案",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "跳過題幹只看選項",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "題幹清楚說明先看時間，再看地點，因此第一步就是確認時間。"
+    },
+    {
+      "itemCode": "REVIEW_MODE-T-0009",
+      "tocflLevel": "B2",
+      "tbclLevel": 4,
+      "tocflBand": "流利",
+      "topic": {
+        "topicCode": "09",
+        "topicName": "科技",
+        "subtopicCode": "09-03",
+        "subtopicName": "數位工具"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "remedial_choice",
+      "indicator": {
+        "code": "R-review-fix",
+        "description": "能在簡化情境中重新辨認關鍵資訊。"
+      },
+      "stem": {
+        "title": "錯題重練",
+        "contextSentence": "這是 小安 上次答錯後重新整理的版本。",
+        "text": "老師提醒：先看時間，再看地點，最後才決定要不要改變安排。小安 上次忽略了時間，這次要重新判斷。"
+      },
+      "questionText": "如果要避免再答錯，第一步應該做什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "直接猜最長的選項",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "先確認時間資訊",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "先看自己喜歡哪個答案",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "跳過題幹只看選項",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "題幹清楚說明先看時間，再看地點，因此第一步就是確認時間。"
+    },
+    {
+      "itemCode": "REVIEW_MODE-T-0010",
+      "tocflLevel": "A2",
+      "tbclLevel": 2,
+      "tocflBand": "進階",
+      "topic": {
+        "topicCode": "10",
+        "topicName": "公共服務",
+        "subtopicCode": "10-01",
+        "subtopicName": "公告通知"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "remedial_choice",
+      "indicator": {
+        "code": "R-review-fix",
+        "description": "能在簡化情境中重新辨認關鍵資訊。"
+      },
+      "stem": {
+        "title": "錯題重練",
+        "contextSentence": "這是 美玲 上次答錯後重新整理的版本。",
+        "text": "老師提醒：先看時間，再看地點，最後才決定要不要改變安排。美玲 上次忽略了時間，這次要重新判斷。"
+      },
+      "questionText": "如果要避免再答錯，第一步應該做什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "直接猜最長的選項",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "先確認時間資訊",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "先看自己喜歡哪個答案",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "跳過題幹只看選項",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "題幹清楚說明先看時間，再看地點，因此第一步就是確認時間。"
+    }
+  ]
+}

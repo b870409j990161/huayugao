@@ -1,0 +1,579 @@
+{
+  "packId": "news_mode-tutorial",
+  "mode": "news_mode",
+  "label": "新聞改寫",
+  "experience": "tutorial",
+  "itemType": "reading",
+  "count": 10,
+  "description": "閱讀改寫新聞與短文，掌握重點。",
+  "items": [
+    {
+      "itemCode": "NEWS_MODE-T-0001",
+      "tocflLevel": "A2",
+      "tbclLevel": 2,
+      "tocflBand": "進階",
+      "topic": {
+        "topicCode": "01",
+        "topicName": "個人資料",
+        "subtopicCode": "01-01",
+        "subtopicName": "自我介紹"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "warning",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [
+        {
+          "wordText": "通風不佳",
+          "detectedLevel": "X",
+          "inVocabList": false,
+          "replacementText": "空氣不太流通",
+          "keepWord": true,
+          "keepReason": "搭配上下文仍可理解，且屬新聞語境常見詞。"
+        }
+      ],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "rewritten_news",
+      "indicator": {
+        "code": "R-news-rewrite",
+        "description": "能讀懂改寫新聞與公共資訊的主要建議。"
+      },
+      "stem": {
+        "title": "改寫新聞",
+        "contextSentence": "下面是一則改寫後的新聞短文。",
+        "text": "臺北 市政府今天提醒，近期天氣變化大，早晚溫差明顯。專家建議民眾出門前先注意最新資訊，並依活動時間準備外套或飲水。如果本身容易不舒服，更要避免長時間待在通風不佳的地方。"
+      },
+      "questionText": "這則新聞最主要想提醒民眾什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "每天都要取消行程",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "依天氣與身體狀況調整外出準備",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "一定要留在家裡三天",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "只要看新聞標題就夠了",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "新聞重點是因應天氣變化做好準備，而不是完全停止活動。"
+    },
+    {
+      "itemCode": "NEWS_MODE-T-0002",
+      "tocflLevel": "B1",
+      "tbclLevel": 3,
+      "tocflBand": "高階",
+      "topic": {
+        "topicCode": "02",
+        "topicName": "飲食",
+        "subtopicCode": "02-02",
+        "subtopicName": "餐廳點餐"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "rewritten_news",
+      "indicator": {
+        "code": "R-news-rewrite",
+        "description": "能讀懂改寫新聞與公共資訊的主要建議。"
+      },
+      "stem": {
+        "title": "改寫新聞",
+        "contextSentence": "下面是一則改寫後的新聞短文。",
+        "text": "臺中 市政府今天提醒，近期天氣變化大，早晚溫差明顯。專家建議民眾出門前先注意最新資訊，並依活動時間準備外套或飲水。如果本身容易不舒服，更要避免長時間待在通風不佳的地方。"
+      },
+      "questionText": "這則新聞最主要想提醒民眾什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "每天都要取消行程",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "依天氣與身體狀況調整外出準備",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "一定要留在家裡三天",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "只要看新聞標題就夠了",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "新聞重點是因應天氣變化做好準備，而不是完全停止活動。"
+    },
+    {
+      "itemCode": "NEWS_MODE-T-0003",
+      "tocflLevel": "B2",
+      "tbclLevel": 4,
+      "tocflBand": "流利",
+      "topic": {
+        "topicCode": "03",
+        "topicName": "旅行",
+        "subtopicCode": "03-03",
+        "subtopicName": "交通行程"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "rewritten_news",
+      "indicator": {
+        "code": "R-news-rewrite",
+        "description": "能讀懂改寫新聞與公共資訊的主要建議。"
+      },
+      "stem": {
+        "title": "改寫新聞",
+        "contextSentence": "下面是一則改寫後的新聞短文。",
+        "text": "臺南 市政府今天提醒，近期天氣變化大，早晚溫差明顯。專家建議民眾出門前先注意最新資訊，並依活動時間準備外套或飲水。如果本身容易不舒服，更要避免長時間待在通風不佳的地方。"
+      },
+      "questionText": "這則新聞最主要想提醒民眾什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "每天都要取消行程",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "依天氣與身體狀況調整外出準備",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "一定要留在家裡三天",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "只要看新聞標題就夠了",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "新聞重點是因應天氣變化做好準備，而不是完全停止活動。"
+    },
+    {
+      "itemCode": "NEWS_MODE-T-0004",
+      "tocflLevel": "A2",
+      "tbclLevel": 2,
+      "tocflBand": "進階",
+      "topic": {
+        "topicCode": "04",
+        "topicName": "購物",
+        "subtopicCode": "04-01",
+        "subtopicName": "商品比較"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "rewritten_news",
+      "indicator": {
+        "code": "R-news-rewrite",
+        "description": "能讀懂改寫新聞與公共資訊的主要建議。"
+      },
+      "stem": {
+        "title": "改寫新聞",
+        "contextSentence": "下面是一則改寫後的新聞短文。",
+        "text": "高雄 市政府今天提醒，近期天氣變化大，早晚溫差明顯。專家建議民眾出門前先注意最新資訊，並依活動時間準備外套或飲水。如果本身容易不舒服，更要避免長時間待在通風不佳的地方。"
+      },
+      "questionText": "這則新聞最主要想提醒民眾什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "每天都要取消行程",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "依天氣與身體狀況調整外出準備",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "一定要留在家裡三天",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "只要看新聞標題就夠了",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "新聞重點是因應天氣變化做好準備，而不是完全停止活動。"
+    },
+    {
+      "itemCode": "NEWS_MODE-T-0005",
+      "tocflLevel": "B1",
+      "tbclLevel": 3,
+      "tocflBand": "高階",
+      "topic": {
+        "topicCode": "05",
+        "topicName": "健康",
+        "subtopicCode": "05-02",
+        "subtopicName": "健康提醒"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "rewritten_news",
+      "indicator": {
+        "code": "R-news-rewrite",
+        "description": "能讀懂改寫新聞與公共資訊的主要建議。"
+      },
+      "stem": {
+        "title": "改寫新聞",
+        "contextSentence": "下面是一則改寫後的新聞短文。",
+        "text": "新竹 市政府今天提醒，近期天氣變化大，早晚溫差明顯。專家建議民眾出門前先注意最新資訊，並依活動時間準備外套或飲水。如果本身容易不舒服，更要避免長時間待在通風不佳的地方。"
+      },
+      "questionText": "這則新聞最主要想提醒民眾什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "每天都要取消行程",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "依天氣與身體狀況調整外出準備",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "一定要留在家裡三天",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "只要看新聞標題就夠了",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "新聞重點是因應天氣變化做好準備，而不是完全停止活動。"
+    },
+    {
+      "itemCode": "NEWS_MODE-T-0006",
+      "tocflLevel": "B2",
+      "tbclLevel": 4,
+      "tocflBand": "流利",
+      "topic": {
+        "topicCode": "06",
+        "topicName": "居住",
+        "subtopicCode": "06-03",
+        "subtopicName": "社區生活"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "rewritten_news",
+      "indicator": {
+        "code": "R-news-rewrite",
+        "description": "能讀懂改寫新聞與公共資訊的主要建議。"
+      },
+      "stem": {
+        "title": "改寫新聞",
+        "contextSentence": "下面是一則改寫後的新聞短文。",
+        "text": "花蓮 市政府今天提醒，近期天氣變化大，早晚溫差明顯。專家建議民眾出門前先注意最新資訊，並依活動時間準備外套或飲水。如果本身容易不舒服，更要避免長時間待在通風不佳的地方。"
+      },
+      "questionText": "這則新聞最主要想提醒民眾什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "每天都要取消行程",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "依天氣與身體狀況調整外出準備",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "一定要留在家裡三天",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "只要看新聞標題就夠了",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "新聞重點是因應天氣變化做好準備，而不是完全停止活動。"
+    },
+    {
+      "itemCode": "NEWS_MODE-T-0007",
+      "tocflLevel": "A2",
+      "tbclLevel": 2,
+      "tocflBand": "進階",
+      "topic": {
+        "topicCode": "07",
+        "topicName": "休閒",
+        "subtopicCode": "07-01",
+        "subtopicName": "活動安排"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "rewritten_news",
+      "indicator": {
+        "code": "R-news-rewrite",
+        "description": "能讀懂改寫新聞與公共資訊的主要建議。"
+      },
+      "stem": {
+        "title": "改寫新聞",
+        "contextSentence": "下面是一則改寫後的新聞短文。",
+        "text": "臺北 市政府今天提醒，近期天氣變化大，早晚溫差明顯。專家建議民眾出門前先注意最新資訊，並依活動時間準備外套或飲水。如果本身容易不舒服，更要避免長時間待在通風不佳的地方。"
+      },
+      "questionText": "這則新聞最主要想提醒民眾什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "每天都要取消行程",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "依天氣與身體狀況調整外出準備",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "一定要留在家裡三天",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "只要看新聞標題就夠了",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "新聞重點是因應天氣變化做好準備，而不是完全停止活動。"
+    },
+    {
+      "itemCode": "NEWS_MODE-T-0008",
+      "tocflLevel": "B1",
+      "tbclLevel": 3,
+      "tocflBand": "高階",
+      "topic": {
+        "topicCode": "08",
+        "topicName": "工作",
+        "subtopicCode": "08-02",
+        "subtopicName": "職場任務"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "warning",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [
+        {
+          "wordText": "通風不佳",
+          "detectedLevel": "X",
+          "inVocabList": false,
+          "replacementText": "空氣不太流通",
+          "keepWord": true,
+          "keepReason": "搭配上下文仍可理解，且屬新聞語境常見詞。"
+        }
+      ],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "rewritten_news",
+      "indicator": {
+        "code": "R-news-rewrite",
+        "description": "能讀懂改寫新聞與公共資訊的主要建議。"
+      },
+      "stem": {
+        "title": "改寫新聞",
+        "contextSentence": "下面是一則改寫後的新聞短文。",
+        "text": "臺中 市政府今天提醒，近期天氣變化大，早晚溫差明顯。專家建議民眾出門前先注意最新資訊，並依活動時間準備外套或飲水。如果本身容易不舒服，更要避免長時間待在通風不佳的地方。"
+      },
+      "questionText": "這則新聞最主要想提醒民眾什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "每天都要取消行程",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "依天氣與身體狀況調整外出準備",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "一定要留在家裡三天",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "只要看新聞標題就夠了",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "新聞重點是因應天氣變化做好準備，而不是完全停止活動。"
+    },
+    {
+      "itemCode": "NEWS_MODE-T-0009",
+      "tocflLevel": "B2",
+      "tbclLevel": 4,
+      "tocflBand": "流利",
+      "topic": {
+        "topicCode": "09",
+        "topicName": "科技",
+        "subtopicCode": "09-03",
+        "subtopicName": "數位工具"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "rewritten_news",
+      "indicator": {
+        "code": "R-news-rewrite",
+        "description": "能讀懂改寫新聞與公共資訊的主要建議。"
+      },
+      "stem": {
+        "title": "改寫新聞",
+        "contextSentence": "下面是一則改寫後的新聞短文。",
+        "text": "臺南 市政府今天提醒，近期天氣變化大，早晚溫差明顯。專家建議民眾出門前先注意最新資訊，並依活動時間準備外套或飲水。如果本身容易不舒服，更要避免長時間待在通風不佳的地方。"
+      },
+      "questionText": "這則新聞最主要想提醒民眾什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "每天都要取消行程",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "依天氣與身體狀況調整外出準備",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "一定要留在家裡三天",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "只要看新聞標題就夠了",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "新聞重點是因應天氣變化做好準備，而不是完全停止活動。"
+    },
+    {
+      "itemCode": "NEWS_MODE-T-0010",
+      "tocflLevel": "A2",
+      "tbclLevel": 2,
+      "tocflBand": "進階",
+      "topic": {
+        "topicCode": "10",
+        "topicName": "公共服務",
+        "subtopicCode": "10-01",
+        "subtopicName": "公告通知"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "rewritten_news",
+      "indicator": {
+        "code": "R-news-rewrite",
+        "description": "能讀懂改寫新聞與公共資訊的主要建議。"
+      },
+      "stem": {
+        "title": "改寫新聞",
+        "contextSentence": "下面是一則改寫後的新聞短文。",
+        "text": "高雄 市政府今天提醒，近期天氣變化大，早晚溫差明顯。專家建議民眾出門前先注意最新資訊，並依活動時間準備外套或飲水。如果本身容易不舒服，更要避免長時間待在通風不佳的地方。"
+      },
+      "questionText": "這則新聞最主要想提醒民眾什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "每天都要取消行程",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "依天氣與身體狀況調整外出準備",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "一定要留在家裡三天",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "只要看新聞標題就夠了",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "新聞重點是因應天氣變化做好準備，而不是完全停止活動。"
+    }
+  ]
+}

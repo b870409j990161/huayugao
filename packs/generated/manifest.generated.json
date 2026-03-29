@@ -1,0 +1,125 @@
+{
+  "version": "1.0.0",
+  "packs": [
+    {
+      "id": "topic_mode-tutorial",
+      "mode": "topic_mode",
+      "label": "主題練習",
+      "experience": "tutorial",
+      "itemType": "mixed",
+      "count": 10,
+      "description": "依主題抽題，適合平日練習與暖身。",
+      "file": "packs/generated/topic_mode-tutorial.json"
+    },
+    {
+      "id": "topic_mode-core",
+      "mode": "topic_mode",
+      "label": "主題練習",
+      "experience": "core",
+      "itemType": "mixed",
+      "count": 500,
+      "description": "依主題抽題，適合平日練習與暖身。",
+      "file": "packs/generated/topic_mode-core.json"
+    },
+    {
+      "id": "story_mode-tutorial",
+      "mode": "story_mode",
+      "label": "主線闖關",
+      "experience": "tutorial",
+      "itemType": "mixed",
+      "count": 10,
+      "description": "用章節與場景推進的學習任務。",
+      "file": "packs/generated/story_mode-tutorial.json"
+    },
+    {
+      "id": "story_mode-core",
+      "mode": "story_mode",
+      "label": "主線闖關",
+      "experience": "core",
+      "itemType": "mixed",
+      "count": 500,
+      "description": "用章節與場景推進的學習任務。",
+      "file": "packs/generated/story_mode-core.json"
+    },
+    {
+      "id": "review_mode-tutorial",
+      "mode": "review_mode",
+      "label": "錯題復健",
+      "experience": "tutorial",
+      "itemType": "mixed",
+      "count": 10,
+      "description": "把常錯知識點換情境再練一次。",
+      "file": "packs/generated/review_mode-tutorial.json"
+    },
+    {
+      "id": "review_mode-core",
+      "mode": "review_mode",
+      "label": "錯題復健",
+      "experience": "core",
+      "itemType": "mixed",
+      "count": 500,
+      "description": "把常錯知識點換情境再練一次。",
+      "file": "packs/generated/review_mode-core.json"
+    },
+    {
+      "id": "mock_exam_mode-tutorial",
+      "mode": "mock_exam_mode",
+      "label": "模擬考",
+      "experience": "tutorial",
+      "itemType": "mixed",
+      "count": 10,
+      "description": "用正式節奏練習計時與穩定度。",
+      "file": "packs/generated/mock_exam_mode-tutorial.json"
+    },
+    {
+      "id": "mock_exam_mode-core",
+      "mode": "mock_exam_mode",
+      "label": "模擬考",
+      "experience": "core",
+      "itemType": "mixed",
+      "count": 500,
+      "description": "用正式節奏練習計時與穩定度。",
+      "file": "packs/generated/mock_exam_mode-core.json"
+    },
+    {
+      "id": "listening_mode-tutorial",
+      "mode": "listening_mode",
+      "label": "聽力任務",
+      "experience": "tutorial",
+      "itemType": "listening",
+      "count": 10,
+      "description": "以情境對話與廣播完成任務。",
+      "file": "packs/generated/listening_mode-tutorial.json"
+    },
+    {
+      "id": "listening_mode-core",
+      "mode": "listening_mode",
+      "label": "聽力任務",
+      "experience": "core",
+      "itemType": "listening",
+      "count": 500,
+      "description": "以情境對話與廣播完成任務。",
+      "file": "packs/generated/listening_mode-core.json"
+    },
+    {
+      "id": "news_mode-tutorial",
+      "mode": "news_mode",
+      "label": "新聞改寫",
+      "experience": "tutorial",
+      "itemType": "reading",
+      "count": 10,
+      "description": "閱讀改寫新聞與短文，掌握重點。",
+      "file": "packs/generated/news_mode-tutorial.json"
+    },
+    {
+      "id": "news_mode-core",
+      "mode": "news_mode",
+      "label": "新聞改寫",
+      "experience": "core",
+      "itemType": "reading",
+      "count": 500,
+      "description": "閱讀改寫新聞與短文，掌握重點。",
+      "file": "packs/generated/news_mode-core.json"
+    }
+  ]
+}

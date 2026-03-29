@@ -1,0 +1,651 @@
+{
+  "packId": "listening_mode-tutorial",
+  "mode": "listening_mode",
+  "label": "聽力任務",
+  "experience": "tutorial",
+  "itemType": "listening",
+  "count": 10,
+  "description": "以情境對話與廣播完成任務。",
+  "items": [
+    {
+      "itemCode": "LISTENING_MODE-T-0001",
+      "tocflLevel": "A2",
+      "tbclLevel": 2,
+      "tocflBand": "進階",
+      "topic": {
+        "topicCode": "01",
+        "topicName": "個人資料",
+        "subtopicCode": "01-01",
+        "subtopicName": "自我介紹"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "listening",
+      "itemSubtype": "dialogue_comprehension",
+      "indicator": {
+        "code": "L-situation-task",
+        "description": "能聽懂情境對話中的任務安排與建議。"
+      },
+      "stem": {
+        "title": "情境對話",
+        "contextSentence": "請聽下面的短對話。",
+        "text": "小安：我今天要去 開會，可是時間有點來不及。朋友：你先確認地點，如果路上太遠，就改搭比較快的車。"
+      },
+      "audio": {
+        "speakerMap": {
+          "speaker1": "小安",
+          "speaker2": "朋友"
+        },
+        "ttsScript": {
+          "normal": "小安：我今天要去 開會，可是時間有點來不及。朋友：你先確認地點，如果路上太遠，就改搭比較快的車。"
+        }
+      },
+      "questionText": "朋友先建議他做什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "先取消事情",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "先確認地點",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "先去買飲料",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "先請假一整天",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "朋友第一句建議就是先確認地點，再決定後續交通安排。"
+    },
+    {
+      "itemCode": "LISTENING_MODE-T-0002",
+      "tocflLevel": "B1",
+      "tbclLevel": 3,
+      "tocflBand": "高階",
+      "topic": {
+        "topicCode": "02",
+        "topicName": "飲食",
+        "subtopicCode": "02-02",
+        "subtopicName": "餐廳點餐"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "listening",
+      "itemSubtype": "dialogue_comprehension",
+      "indicator": {
+        "code": "L-situation-task",
+        "description": "能聽懂情境對話中的任務安排與建議。"
+      },
+      "stem": {
+        "title": "情境對話",
+        "contextSentence": "請聽下面的短對話。",
+        "text": "美玲：我今天要去 上課，可是時間有點來不及。朋友：你先確認地點，如果路上太遠，就改搭比較快的車。"
+      },
+      "audio": {
+        "speakerMap": {
+          "speaker1": "美玲",
+          "speaker2": "朋友"
+        },
+        "ttsScript": {
+          "normal": "美玲：我今天要去 上課，可是時間有點來不及。朋友：你先確認地點，如果路上太遠，就改搭比較快的車。"
+        }
+      },
+      "questionText": "朋友先建議他做什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "先取消事情",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "先確認地點",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "先去買飲料",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "先請假一整天",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "朋友第一句建議就是先確認地點，再決定後續交通安排。"
+    },
+    {
+      "itemCode": "LISTENING_MODE-T-0003",
+      "tocflLevel": "B2",
+      "tbclLevel": 4,
+      "tocflBand": "流利",
+      "topic": {
+        "topicCode": "03",
+        "topicName": "旅行",
+        "subtopicCode": "03-03",
+        "subtopicName": "交通行程"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "listening",
+      "itemSubtype": "dialogue_comprehension",
+      "indicator": {
+        "code": "L-situation-task",
+        "description": "能聽懂情境對話中的任務安排與建議。"
+      },
+      "stem": {
+        "title": "情境對話",
+        "contextSentence": "請聽下面的短對話。",
+        "text": "志明：我今天要去 參加活動，可是時間有點來不及。朋友：你先確認地點，如果路上太遠，就改搭比較快的車。"
+      },
+      "audio": {
+        "speakerMap": {
+          "speaker1": "志明",
+          "speaker2": "朋友"
+        },
+        "ttsScript": {
+          "normal": "志明：我今天要去 參加活動，可是時間有點來不及。朋友：你先確認地點，如果路上太遠，就改搭比較快的車。"
+        }
+      },
+      "questionText": "朋友先建議他做什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "先取消事情",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "先確認地點",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "先去買飲料",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "先請假一整天",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "朋友第一句建議就是先確認地點，再決定後續交通安排。"
+    },
+    {
+      "itemCode": "LISTENING_MODE-T-0004",
+      "tocflLevel": "A2",
+      "tbclLevel": 2,
+      "tocflBand": "進階",
+      "topic": {
+        "topicCode": "04",
+        "topicName": "購物",
+        "subtopicCode": "04-01",
+        "subtopicName": "商品比較"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "listening",
+      "itemSubtype": "dialogue_comprehension",
+      "indicator": {
+        "code": "L-situation-task",
+        "description": "能聽懂情境對話中的任務安排與建議。"
+      },
+      "stem": {
+        "title": "情境對話",
+        "contextSentence": "請聽下面的短對話。",
+        "text": "佳琪：我今天要去 搭車，可是時間有點來不及。朋友：你先確認地點，如果路上太遠，就改搭比較快的車。"
+      },
+      "audio": {
+        "speakerMap": {
+          "speaker1": "佳琪",
+          "speaker2": "朋友"
+        },
+        "ttsScript": {
+          "normal": "佳琪：我今天要去 搭車，可是時間有點來不及。朋友：你先確認地點，如果路上太遠，就改搭比較快的車。"
+        }
+      },
+      "questionText": "朋友先建議他做什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "先取消事情",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "先確認地點",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "先去買飲料",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "先請假一整天",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "朋友第一句建議就是先確認地點，再決定後續交通安排。"
+    },
+    {
+      "itemCode": "LISTENING_MODE-T-0005",
+      "tocflLevel": "B1",
+      "tbclLevel": 3,
+      "tocflBand": "高階",
+      "topic": {
+        "topicCode": "05",
+        "topicName": "健康",
+        "subtopicCode": "05-02",
+        "subtopicName": "健康提醒"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "listening",
+      "itemSubtype": "dialogue_comprehension",
+      "indicator": {
+        "code": "L-situation-task",
+        "description": "能聽懂情境對話中的任務安排與建議。"
+      },
+      "stem": {
+        "title": "情境對話",
+        "contextSentence": "請聽下面的短對話。",
+        "text": "大衛：我今天要去 交報告，可是時間有點來不及。朋友：你先確認地點，如果路上太遠，就改搭比較快的車。"
+      },
+      "audio": {
+        "speakerMap": {
+          "speaker1": "大衛",
+          "speaker2": "朋友"
+        },
+        "ttsScript": {
+          "normal": "大衛：我今天要去 交報告，可是時間有點來不及。朋友：你先確認地點，如果路上太遠，就改搭比較快的車。"
+        }
+      },
+      "questionText": "朋友先建議他做什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "先取消事情",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "先確認地點",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "先去買飲料",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "先請假一整天",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "朋友第一句建議就是先確認地點，再決定後續交通安排。"
+    },
+    {
+      "itemCode": "LISTENING_MODE-T-0006",
+      "tocflLevel": "B2",
+      "tbclLevel": 4,
+      "tocflBand": "流利",
+      "topic": {
+        "topicCode": "06",
+        "topicName": "居住",
+        "subtopicCode": "06-03",
+        "subtopicName": "社區生活"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "listening",
+      "itemSubtype": "dialogue_comprehension",
+      "indicator": {
+        "code": "L-situation-task",
+        "description": "能聽懂情境對話中的任務安排與建議。"
+      },
+      "stem": {
+        "title": "情境對話",
+        "contextSentence": "請聽下面的短對話。",
+        "text": "安娜：我今天要去 看醫生，可是時間有點來不及。朋友：你先確認地點，如果路上太遠，就改搭比較快的車。"
+      },
+      "audio": {
+        "speakerMap": {
+          "speaker1": "安娜",
+          "speaker2": "朋友"
+        },
+        "ttsScript": {
+          "normal": "安娜：我今天要去 看醫生，可是時間有點來不及。朋友：你先確認地點，如果路上太遠，就改搭比較快的車。"
+        }
+      },
+      "questionText": "朋友先建議他做什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "先取消事情",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "先確認地點",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "先去買飲料",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "先請假一整天",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "朋友第一句建議就是先確認地點，再決定後續交通安排。"
+    },
+    {
+      "itemCode": "LISTENING_MODE-T-0007",
+      "tocflLevel": "A2",
+      "tbclLevel": 2,
+      "tocflBand": "進階",
+      "topic": {
+        "topicCode": "07",
+        "topicName": "休閒",
+        "subtopicCode": "07-01",
+        "subtopicName": "活動安排"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "listening",
+      "itemSubtype": "dialogue_comprehension",
+      "indicator": {
+        "code": "L-situation-task",
+        "description": "能聽懂情境對話中的任務安排與建議。"
+      },
+      "stem": {
+        "title": "情境對話",
+        "contextSentence": "請聽下面的短對話。",
+        "text": "建宏：我今天要去 買東西，可是時間有點來不及。朋友：你先確認地點，如果路上太遠，就改搭比較快的車。"
+      },
+      "audio": {
+        "speakerMap": {
+          "speaker1": "建宏",
+          "speaker2": "朋友"
+        },
+        "ttsScript": {
+          "normal": "建宏：我今天要去 買東西，可是時間有點來不及。朋友：你先確認地點，如果路上太遠，就改搭比較快的車。"
+        }
+      },
+      "questionText": "朋友先建議他做什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "先取消事情",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "先確認地點",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "先去買飲料",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "先請假一整天",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "朋友第一句建議就是先確認地點，再決定後續交通安排。"
+    },
+    {
+      "itemCode": "LISTENING_MODE-T-0008",
+      "tocflLevel": "B1",
+      "tbclLevel": 3,
+      "tocflBand": "高階",
+      "topic": {
+        "topicCode": "08",
+        "topicName": "工作",
+        "subtopicCode": "08-02",
+        "subtopicName": "職場任務"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "listening",
+      "itemSubtype": "dialogue_comprehension",
+      "indicator": {
+        "code": "L-situation-task",
+        "description": "能聽懂情境對話中的任務安排與建議。"
+      },
+      "stem": {
+        "title": "情境對話",
+        "contextSentence": "請聽下面的短對話。",
+        "text": "佩珊：我今天要去 準備展覽，可是時間有點來不及。朋友：你先確認地點，如果路上太遠，就改搭比較快的車。"
+      },
+      "audio": {
+        "speakerMap": {
+          "speaker1": "佩珊",
+          "speaker2": "朋友"
+        },
+        "ttsScript": {
+          "normal": "佩珊：我今天要去 準備展覽，可是時間有點來不及。朋友：你先確認地點，如果路上太遠，就改搭比較快的車。"
+        }
+      },
+      "questionText": "朋友先建議他做什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "先取消事情",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "先確認地點",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "先去買飲料",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "先請假一整天",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "朋友第一句建議就是先確認地點，再決定後續交通安排。"
+    },
+    {
+      "itemCode": "LISTENING_MODE-T-0009",
+      "tocflLevel": "B2",
+      "tbclLevel": 4,
+      "tocflBand": "流利",
+      "topic": {
+        "topicCode": "09",
+        "topicName": "科技",
+        "subtopicCode": "09-03",
+        "subtopicName": "數位工具"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "listening",
+      "itemSubtype": "dialogue_comprehension",
+      "indicator": {
+        "code": "L-situation-task",
+        "description": "能聽懂情境對話中的任務安排與建議。"
+      },
+      "stem": {
+        "title": "情境對話",
+        "contextSentence": "請聽下面的短對話。",
+        "text": "小安：我今天要去 開會，可是時間有點來不及。朋友：你先確認地點，如果路上太遠，就改搭比較快的車。"
+      },
+      "audio": {
+        "speakerMap": {
+          "speaker1": "小安",
+          "speaker2": "朋友"
+        },
+        "ttsScript": {
+          "normal": "小安：我今天要去 開會，可是時間有點來不及。朋友：你先確認地點，如果路上太遠，就改搭比較快的車。"
+        }
+      },
+      "questionText": "朋友先建議他做什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "先取消事情",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "先確認地點",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "先去買飲料",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "先請假一整天",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "朋友第一句建議就是先確認地點，再決定後續交通安排。"
+    },
+    {
+      "itemCode": "LISTENING_MODE-T-0010",
+      "tocflLevel": "A2",
+      "tbclLevel": 2,
+      "tocflBand": "進階",
+      "topic": {
+        "topicCode": "10",
+        "topicName": "公共服務",
+        "subtopicCode": "10-01",
+        "subtopicName": "公告通知"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "listening",
+      "itemSubtype": "dialogue_comprehension",
+      "indicator": {
+        "code": "L-situation-task",
+        "description": "能聽懂情境對話中的任務安排與建議。"
+      },
+      "stem": {
+        "title": "情境對話",
+        "contextSentence": "請聽下面的短對話。",
+        "text": "美玲：我今天要去 上課，可是時間有點來不及。朋友：你先確認地點，如果路上太遠，就改搭比較快的車。"
+      },
+      "audio": {
+        "speakerMap": {
+          "speaker1": "美玲",
+          "speaker2": "朋友"
+        },
+        "ttsScript": {
+          "normal": "美玲：我今天要去 上課，可是時間有點來不及。朋友：你先確認地點，如果路上太遠，就改搭比較快的車。"
+        }
+      },
+      "questionText": "朋友先建議他做什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "先取消事情",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "先確認地點",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "先去買飲料",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "先請假一整天",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "朋友第一句建議就是先確認地點，再決定後續交通安排。"
+    }
+  ]
+}

@@ -1,0 +1,561 @@
+{
+  "packId": "topic_mode-tutorial",
+  "mode": "topic_mode",
+  "label": "主題練習",
+  "experience": "tutorial",
+  "itemType": "mixed",
+  "count": 10,
+  "description": "依主題抽題，適合平日練習與暖身。",
+  "items": [
+    {
+      "itemCode": "TOPIC_MODE-T-0001",
+      "tocflLevel": "A2",
+      "tbclLevel": 2,
+      "tocflBand": "進階",
+      "topic": {
+        "topicCode": "01",
+        "topicName": "個人資料",
+        "subtopicCode": "01-01",
+        "subtopicName": "自我介紹"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "short_passage_comprehension",
+      "indicator": {
+        "code": "R-topic-core",
+        "description": "能在熟悉主題的短文中抓出明確訊息。"
+      },
+      "stem": {
+        "title": "個人資料情境",
+        "contextSentence": "小安 正在安排和 個人資料 有關的事情。",
+        "text": "明天早上，小安 要去 臺北開會。他先收到一則提醒：如果超過原定時間，就要先通知窗口，並重新確認地點和費用。"
+      },
+      "questionText": "根據短文，小安 最需要先確認什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "今天要不要吃早餐",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "是否需要先通知窗口",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "朋友有沒有放假",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "家裡的電燈有沒有關",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "短文明確提到變動時要先通知窗口，所以重點是確認是否需要先通知。"
+    },
+    {
+      "itemCode": "TOPIC_MODE-T-0002",
+      "tocflLevel": "B1",
+      "tbclLevel": 3,
+      "tocflBand": "高階",
+      "topic": {
+        "topicCode": "02",
+        "topicName": "飲食",
+        "subtopicCode": "02-02",
+        "subtopicName": "餐廳點餐"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "short_passage_comprehension",
+      "indicator": {
+        "code": "R-topic-core",
+        "description": "能在熟悉主題的短文中抓出明確訊息。"
+      },
+      "stem": {
+        "title": "飲食情境",
+        "contextSentence": "美玲 正在安排和 飲食 有關的事情。",
+        "text": "今天下午，美玲 要去 臺中上課。他先收到一則提醒：如果超過原定時間，就要先通知窗口，並重新確認地點和費用。"
+      },
+      "questionText": "根據短文，美玲 最需要先確認什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "今天要不要吃早餐",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "是否需要先通知窗口",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "朋友有沒有放假",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "家裡的電燈有沒有關",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "短文明確提到變動時要先通知窗口，所以重點是確認是否需要先通知。"
+    },
+    {
+      "itemCode": "TOPIC_MODE-T-0003",
+      "tocflLevel": "B2",
+      "tbclLevel": 4,
+      "tocflBand": "流利",
+      "topic": {
+        "topicCode": "03",
+        "topicName": "旅行",
+        "subtopicCode": "03-03",
+        "subtopicName": "交通行程"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "short_passage_comprehension",
+      "indicator": {
+        "code": "R-topic-core",
+        "description": "能在熟悉主題的短文中抓出明確訊息。"
+      },
+      "stem": {
+        "title": "旅行情境",
+        "contextSentence": "志明 正在安排和 旅行 有關的事情。",
+        "text": "下週一，志明 要去 臺南參加活動。他先收到一則提醒：如果超過原定時間，就要先通知窗口，並重新確認地點和費用。"
+      },
+      "questionText": "根據短文，志明 最需要先確認什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "今天要不要吃早餐",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "是否需要先通知窗口",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "朋友有沒有放假",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "家裡的電燈有沒有關",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "短文明確提到變動時要先通知窗口，所以重點是確認是否需要先通知。"
+    },
+    {
+      "itemCode": "TOPIC_MODE-T-0004",
+      "tocflLevel": "A2",
+      "tbclLevel": 2,
+      "tocflBand": "進階",
+      "topic": {
+        "topicCode": "04",
+        "topicName": "購物",
+        "subtopicCode": "04-01",
+        "subtopicName": "商品比較"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "short_passage_comprehension",
+      "indicator": {
+        "code": "R-topic-core",
+        "description": "能在熟悉主題的短文中抓出明確訊息。"
+      },
+      "stem": {
+        "title": "購物情境",
+        "contextSentence": "佳琪 正在安排和 購物 有關的事情。",
+        "text": "這個週末，佳琪 要去 高雄搭車。他先收到一則提醒：如果超過原定時間，就要先通知窗口，並重新確認地點和費用。"
+      },
+      "questionText": "根據短文，佳琪 最需要先確認什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "今天要不要吃早餐",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "是否需要先通知窗口",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "朋友有沒有放假",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "家裡的電燈有沒有關",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "短文明確提到變動時要先通知窗口，所以重點是確認是否需要先通知。"
+    },
+    {
+      "itemCode": "TOPIC_MODE-T-0005",
+      "tocflLevel": "B1",
+      "tbclLevel": 3,
+      "tocflBand": "高階",
+      "topic": {
+        "topicCode": "05",
+        "topicName": "健康",
+        "subtopicCode": "05-02",
+        "subtopicName": "健康提醒"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "short_passage_comprehension",
+      "indicator": {
+        "code": "R-topic-core",
+        "description": "能在熟悉主題的短文中抓出明確訊息。"
+      },
+      "stem": {
+        "title": "健康情境",
+        "contextSentence": "大衛 正在安排和 健康 有關的事情。",
+        "text": "晚上八點，大衛 要去 新竹交報告。他先收到一則提醒：如果超過原定時間，就要先通知窗口，並重新確認地點和費用。"
+      },
+      "questionText": "根據短文，大衛 最需要先確認什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "今天要不要吃早餐",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "是否需要先通知窗口",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "朋友有沒有放假",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "家裡的電燈有沒有關",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "短文明確提到變動時要先通知窗口，所以重點是確認是否需要先通知。"
+    },
+    {
+      "itemCode": "TOPIC_MODE-T-0006",
+      "tocflLevel": "B2",
+      "tbclLevel": 4,
+      "tocflBand": "流利",
+      "topic": {
+        "topicCode": "06",
+        "topicName": "居住",
+        "subtopicCode": "06-03",
+        "subtopicName": "社區生活"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "short_passage_comprehension",
+      "indicator": {
+        "code": "R-topic-core",
+        "description": "能在熟悉主題的短文中抓出明確訊息。"
+      },
+      "stem": {
+        "title": "居住情境",
+        "contextSentence": "安娜 正在安排和 居住 有關的事情。",
+        "text": "中午十二點，安娜 要去 花蓮看醫生。他先收到一則提醒：如果超過原定時間，就要先通知窗口，並重新確認地點和費用。"
+      },
+      "questionText": "根據短文，安娜 最需要先確認什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "今天要不要吃早餐",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "是否需要先通知窗口",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "朋友有沒有放假",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "家裡的電燈有沒有關",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "短文明確提到變動時要先通知窗口，所以重點是確認是否需要先通知。"
+    },
+    {
+      "itemCode": "TOPIC_MODE-T-0007",
+      "tocflLevel": "A2",
+      "tbclLevel": 2,
+      "tocflBand": "進階",
+      "topic": {
+        "topicCode": "07",
+        "topicName": "休閒",
+        "subtopicCode": "07-01",
+        "subtopicName": "活動安排"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "short_passage_comprehension",
+      "indicator": {
+        "code": "R-topic-core",
+        "description": "能在熟悉主題的短文中抓出明確訊息。"
+      },
+      "stem": {
+        "title": "休閒情境",
+        "contextSentence": "建宏 正在安排和 休閒 有關的事情。",
+        "text": "明天早上，建宏 要去 臺北買東西。他先收到一則提醒：如果超過原定時間，就要先通知窗口，並重新確認地點和費用。"
+      },
+      "questionText": "根據短文，建宏 最需要先確認什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "今天要不要吃早餐",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "是否需要先通知窗口",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "朋友有沒有放假",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "家裡的電燈有沒有關",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "短文明確提到變動時要先通知窗口，所以重點是確認是否需要先通知。"
+    },
+    {
+      "itemCode": "TOPIC_MODE-T-0008",
+      "tocflLevel": "B1",
+      "tbclLevel": 3,
+      "tocflBand": "高階",
+      "topic": {
+        "topicCode": "08",
+        "topicName": "工作",
+        "subtopicCode": "08-02",
+        "subtopicName": "職場任務"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "short_passage_comprehension",
+      "indicator": {
+        "code": "R-topic-core",
+        "description": "能在熟悉主題的短文中抓出明確訊息。"
+      },
+      "stem": {
+        "title": "工作情境",
+        "contextSentence": "佩珊 正在安排和 工作 有關的事情。",
+        "text": "今天下午，佩珊 要去 臺中準備展覽。他先收到一則提醒：如果超過原定時間，就要先通知窗口，並重新確認地點和費用。"
+      },
+      "questionText": "根據短文，佩珊 最需要先確認什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "今天要不要吃早餐",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "是否需要先通知窗口",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "朋友有沒有放假",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "家裡的電燈有沒有關",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "短文明確提到變動時要先通知窗口，所以重點是確認是否需要先通知。"
+    },
+    {
+      "itemCode": "TOPIC_MODE-T-0009",
+      "tocflLevel": "B2",
+      "tbclLevel": 4,
+      "tocflBand": "流利",
+      "topic": {
+        "topicCode": "09",
+        "topicName": "科技",
+        "subtopicCode": "09-03",
+        "subtopicName": "數位工具"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "short_passage_comprehension",
+      "indicator": {
+        "code": "R-topic-core",
+        "description": "能在熟悉主題的短文中抓出明確訊息。"
+      },
+      "stem": {
+        "title": "科技情境",
+        "contextSentence": "小安 正在安排和 科技 有關的事情。",
+        "text": "下週一，小安 要去 臺南開會。他先收到一則提醒：如果超過原定時間，就要先通知窗口，並重新確認地點和費用。"
+      },
+      "questionText": "根據短文，小安 最需要先確認什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "今天要不要吃早餐",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "是否需要先通知窗口",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "朋友有沒有放假",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "家裡的電燈有沒有關",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "短文明確提到變動時要先通知窗口，所以重點是確認是否需要先通知。"
+    },
+    {
+      "itemCode": "TOPIC_MODE-T-0010",
+      "tocflLevel": "A2",
+      "tbclLevel": 2,
+      "tocflBand": "進階",
+      "topic": {
+        "topicCode": "10",
+        "topicName": "公共服務",
+        "subtopicCode": "10-01",
+        "subtopicName": "公告通知"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "short_passage_comprehension",
+      "indicator": {
+        "code": "R-topic-core",
+        "description": "能在熟悉主題的短文中抓出明確訊息。"
+      },
+      "stem": {
+        "title": "公共服務情境",
+        "contextSentence": "美玲 正在安排和 公共服務 有關的事情。",
+        "text": "這個週末，美玲 要去 高雄上課。他先收到一則提醒：如果超過原定時間，就要先通知窗口，並重新確認地點和費用。"
+      },
+      "questionText": "根據短文，美玲 最需要先確認什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "今天要不要吃早餐",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "是否需要先通知窗口",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "朋友有沒有放假",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "家裡的電燈有沒有關",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "短文明確提到變動時要先通知窗口，所以重點是確認是否需要先通知。"
+    }
+  ]
+}

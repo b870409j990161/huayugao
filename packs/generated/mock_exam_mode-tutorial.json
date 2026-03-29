@@ -1,0 +1,601 @@
+{
+  "packId": "mock_exam_mode-tutorial",
+  "mode": "mock_exam_mode",
+  "label": "模擬考",
+  "experience": "tutorial",
+  "itemType": "mixed",
+  "count": 10,
+  "description": "用正式節奏練習計時與穩定度。",
+  "items": [
+    {
+      "itemCode": "MOCK_EXAM_MODE-T-0001",
+      "tocflLevel": "A2",
+      "tbclLevel": 2,
+      "tocflBand": "進階",
+      "topic": {
+        "topicCode": "01",
+        "topicName": "個人資料",
+        "subtopicCode": "01-01",
+        "subtopicName": "自我介紹"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "exam_style",
+      "indicator": {
+        "code": "R-mock-exam",
+        "description": "能在接近正式測驗的節奏下判斷主要訊息。"
+      },
+      "stem": {
+        "title": "模擬考題組",
+        "contextSentence": "小安 收到一則和 臺北 有關的資訊。",
+        "text": "公告指出，今天活動地點改到 臺北 的新場地，報到時間提前三十分鐘。若無法準時到場，請先線上回覆。"
+      },
+      "questionText": "這題最重要的提醒是什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "一定要取消活動",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "留意地點變更與提早報到",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "只要帶水壺就好",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "活動改成下個月舉行",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "資訊重點是地點改變和時間提前，兩者都屬於正式測驗常考的明確訊息。"
+    },
+    {
+      "itemCode": "MOCK_EXAM_MODE-T-0002",
+      "tocflLevel": "B1",
+      "tbclLevel": 3,
+      "tocflBand": "高階",
+      "topic": {
+        "topicCode": "02",
+        "topicName": "飲食",
+        "subtopicCode": "02-02",
+        "subtopicName": "餐廳點餐"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "listening",
+      "itemSubtype": "exam_style",
+      "indicator": {
+        "code": "L-mock-exam",
+        "description": "能在接近正式測驗的節奏下判斷主要訊息。"
+      },
+      "stem": {
+        "title": "模擬考題組",
+        "contextSentence": "美玲 收到一則和 臺中 有關的資訊。",
+        "text": "公告指出，今天活動地點改到 臺中 的新場地，報到時間提前三十分鐘。若無法準時到場，請先線上回覆。"
+      },
+      "audio": {
+        "speakerMap": {
+          "speaker1": "廣播員"
+        },
+        "ttsScript": {
+          "normal": "公告指出，今天活動地點改到 臺中 的新場地，報到時間提前三十分鐘。若無法準時到場，請先線上回覆。"
+        }
+      },
+      "questionText": "這題最重要的提醒是什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "一定要取消活動",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "留意地點變更與提早報到",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "只要帶水壺就好",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "活動改成下個月舉行",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "資訊重點是地點改變和時間提前，兩者都屬於正式測驗常考的明確訊息。"
+    },
+    {
+      "itemCode": "MOCK_EXAM_MODE-T-0003",
+      "tocflLevel": "B2",
+      "tbclLevel": 4,
+      "tocflBand": "流利",
+      "topic": {
+        "topicCode": "03",
+        "topicName": "旅行",
+        "subtopicCode": "03-03",
+        "subtopicName": "交通行程"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "exam_style",
+      "indicator": {
+        "code": "R-mock-exam",
+        "description": "能在接近正式測驗的節奏下判斷主要訊息。"
+      },
+      "stem": {
+        "title": "模擬考題組",
+        "contextSentence": "志明 收到一則和 臺南 有關的資訊。",
+        "text": "公告指出，今天活動地點改到 臺南 的新場地，報到時間提前三十分鐘。若無法準時到場，請先線上回覆。"
+      },
+      "questionText": "這題最重要的提醒是什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "一定要取消活動",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "留意地點變更與提早報到",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "只要帶水壺就好",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "活動改成下個月舉行",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "資訊重點是地點改變和時間提前，兩者都屬於正式測驗常考的明確訊息。"
+    },
+    {
+      "itemCode": "MOCK_EXAM_MODE-T-0004",
+      "tocflLevel": "A2",
+      "tbclLevel": 2,
+      "tocflBand": "進階",
+      "topic": {
+        "topicCode": "04",
+        "topicName": "購物",
+        "subtopicCode": "04-01",
+        "subtopicName": "商品比較"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "listening",
+      "itemSubtype": "exam_style",
+      "indicator": {
+        "code": "L-mock-exam",
+        "description": "能在接近正式測驗的節奏下判斷主要訊息。"
+      },
+      "stem": {
+        "title": "模擬考題組",
+        "contextSentence": "佳琪 收到一則和 高雄 有關的資訊。",
+        "text": "公告指出，今天活動地點改到 高雄 的新場地，報到時間提前三十分鐘。若無法準時到場，請先線上回覆。"
+      },
+      "audio": {
+        "speakerMap": {
+          "speaker1": "廣播員"
+        },
+        "ttsScript": {
+          "normal": "公告指出，今天活動地點改到 高雄 的新場地，報到時間提前三十分鐘。若無法準時到場，請先線上回覆。"
+        }
+      },
+      "questionText": "這題最重要的提醒是什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "一定要取消活動",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "留意地點變更與提早報到",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "只要帶水壺就好",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "活動改成下個月舉行",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "資訊重點是地點改變和時間提前，兩者都屬於正式測驗常考的明確訊息。"
+    },
+    {
+      "itemCode": "MOCK_EXAM_MODE-T-0005",
+      "tocflLevel": "B1",
+      "tbclLevel": 3,
+      "tocflBand": "高階",
+      "topic": {
+        "topicCode": "05",
+        "topicName": "健康",
+        "subtopicCode": "05-02",
+        "subtopicName": "健康提醒"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "exam_style",
+      "indicator": {
+        "code": "R-mock-exam",
+        "description": "能在接近正式測驗的節奏下判斷主要訊息。"
+      },
+      "stem": {
+        "title": "模擬考題組",
+        "contextSentence": "大衛 收到一則和 新竹 有關的資訊。",
+        "text": "公告指出，今天活動地點改到 新竹 的新場地，報到時間提前三十分鐘。若無法準時到場，請先線上回覆。"
+      },
+      "questionText": "這題最重要的提醒是什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "一定要取消活動",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "留意地點變更與提早報到",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "只要帶水壺就好",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "活動改成下個月舉行",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "資訊重點是地點改變和時間提前，兩者都屬於正式測驗常考的明確訊息。"
+    },
+    {
+      "itemCode": "MOCK_EXAM_MODE-T-0006",
+      "tocflLevel": "B2",
+      "tbclLevel": 4,
+      "tocflBand": "流利",
+      "topic": {
+        "topicCode": "06",
+        "topicName": "居住",
+        "subtopicCode": "06-03",
+        "subtopicName": "社區生活"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "listening",
+      "itemSubtype": "exam_style",
+      "indicator": {
+        "code": "L-mock-exam",
+        "description": "能在接近正式測驗的節奏下判斷主要訊息。"
+      },
+      "stem": {
+        "title": "模擬考題組",
+        "contextSentence": "安娜 收到一則和 花蓮 有關的資訊。",
+        "text": "公告指出，今天活動地點改到 花蓮 的新場地，報到時間提前三十分鐘。若無法準時到場，請先線上回覆。"
+      },
+      "audio": {
+        "speakerMap": {
+          "speaker1": "廣播員"
+        },
+        "ttsScript": {
+          "normal": "公告指出，今天活動地點改到 花蓮 的新場地，報到時間提前三十分鐘。若無法準時到場，請先線上回覆。"
+        }
+      },
+      "questionText": "這題最重要的提醒是什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "一定要取消活動",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "留意地點變更與提早報到",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "只要帶水壺就好",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "活動改成下個月舉行",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "資訊重點是地點改變和時間提前，兩者都屬於正式測驗常考的明確訊息。"
+    },
+    {
+      "itemCode": "MOCK_EXAM_MODE-T-0007",
+      "tocflLevel": "A2",
+      "tbclLevel": 2,
+      "tocflBand": "進階",
+      "topic": {
+        "topicCode": "07",
+        "topicName": "休閒",
+        "subtopicCode": "07-01",
+        "subtopicName": "活動安排"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "exam_style",
+      "indicator": {
+        "code": "R-mock-exam",
+        "description": "能在接近正式測驗的節奏下判斷主要訊息。"
+      },
+      "stem": {
+        "title": "模擬考題組",
+        "contextSentence": "建宏 收到一則和 臺北 有關的資訊。",
+        "text": "公告指出，今天活動地點改到 臺北 的新場地，報到時間提前三十分鐘。若無法準時到場，請先線上回覆。"
+      },
+      "questionText": "這題最重要的提醒是什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "一定要取消活動",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "留意地點變更與提早報到",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "只要帶水壺就好",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "活動改成下個月舉行",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "資訊重點是地點改變和時間提前，兩者都屬於正式測驗常考的明確訊息。"
+    },
+    {
+      "itemCode": "MOCK_EXAM_MODE-T-0008",
+      "tocflLevel": "B1",
+      "tbclLevel": 3,
+      "tocflBand": "高階",
+      "topic": {
+        "topicCode": "08",
+        "topicName": "工作",
+        "subtopicCode": "08-02",
+        "subtopicName": "職場任務"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "listening",
+      "itemSubtype": "exam_style",
+      "indicator": {
+        "code": "L-mock-exam",
+        "description": "能在接近正式測驗的節奏下判斷主要訊息。"
+      },
+      "stem": {
+        "title": "模擬考題組",
+        "contextSentence": "佩珊 收到一則和 臺中 有關的資訊。",
+        "text": "公告指出，今天活動地點改到 臺中 的新場地，報到時間提前三十分鐘。若無法準時到場，請先線上回覆。"
+      },
+      "audio": {
+        "speakerMap": {
+          "speaker1": "廣播員"
+        },
+        "ttsScript": {
+          "normal": "公告指出，今天活動地點改到 臺中 的新場地，報到時間提前三十分鐘。若無法準時到場，請先線上回覆。"
+        }
+      },
+      "questionText": "這題最重要的提醒是什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "一定要取消活動",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "留意地點變更與提早報到",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "只要帶水壺就好",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "活動改成下個月舉行",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "資訊重點是地點改變和時間提前，兩者都屬於正式測驗常考的明確訊息。"
+    },
+    {
+      "itemCode": "MOCK_EXAM_MODE-T-0009",
+      "tocflLevel": "B2",
+      "tbclLevel": 4,
+      "tocflBand": "流利",
+      "topic": {
+        "topicCode": "09",
+        "topicName": "科技",
+        "subtopicCode": "09-03",
+        "subtopicName": "數位工具"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "reading",
+      "itemSubtype": "exam_style",
+      "indicator": {
+        "code": "R-mock-exam",
+        "description": "能在接近正式測驗的節奏下判斷主要訊息。"
+      },
+      "stem": {
+        "title": "模擬考題組",
+        "contextSentence": "小安 收到一則和 臺南 有關的資訊。",
+        "text": "公告指出，今天活動地點改到 臺南 的新場地，報到時間提前三十分鐘。若無法準時到場，請先線上回覆。"
+      },
+      "questionText": "這題最重要的提醒是什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "一定要取消活動",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "留意地點變更與提早報到",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "只要帶水壺就好",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "活動改成下個月舉行",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "資訊重點是地點改變和時間提前，兩者都屬於正式測驗常考的明確訊息。"
+    },
+    {
+      "itemCode": "MOCK_EXAM_MODE-T-0010",
+      "tocflLevel": "A2",
+      "tbclLevel": 2,
+      "tocflBand": "進階",
+      "topic": {
+        "topicCode": "10",
+        "topicName": "公共服務",
+        "subtopicCode": "10-01",
+        "subtopicName": "公告通知"
+      },
+      "quality": {
+        "fairnessStatus": "passed",
+        "originalityStatus": "passed",
+        "logicStatus": "passed"
+      },
+      "superLevelWordAudit": [],
+      "tutorialFocus": "基礎理解",
+      "itemType": "listening",
+      "itemSubtype": "exam_style",
+      "indicator": {
+        "code": "L-mock-exam",
+        "description": "能在接近正式測驗的節奏下判斷主要訊息。"
+      },
+      "stem": {
+        "title": "模擬考題組",
+        "contextSentence": "美玲 收到一則和 高雄 有關的資訊。",
+        "text": "公告指出，今天活動地點改到 高雄 的新場地，報到時間提前三十分鐘。若無法準時到場，請先線上回覆。"
+      },
+      "audio": {
+        "speakerMap": {
+          "speaker1": "廣播員"
+        },
+        "ttsScript": {
+          "normal": "公告指出，今天活動地點改到 高雄 的新場地，報到時間提前三十分鐘。若無法準時到場，請先線上回覆。"
+        }
+      },
+      "questionText": "這題最重要的提醒是什麼？",
+      "options": [
+        {
+          "optionKey": "A",
+          "optionText": "一定要取消活動",
+          "optionOrder": 1
+        },
+        {
+          "optionKey": "B",
+          "optionText": "留意地點變更與提早報到",
+          "optionOrder": 2
+        },
+        {
+          "optionKey": "C",
+          "optionText": "只要帶水壺就好",
+          "optionOrder": 3
+        },
+        {
+          "optionKey": "D",
+          "optionText": "活動改成下個月舉行",
+          "optionOrder": 4
+        }
+      ],
+      "answerOptionKey": "B",
+      "explanationText": "資訊重點是地點改變和時間提前，兩者都屬於正式測驗常考的明確訊息。"
+    }
+  ]
+}

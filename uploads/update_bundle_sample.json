@@ -1,0 +1,47 @@
+{
+  "version": "1.0.0",
+  "packs": [
+    {
+      "packId": "topic_mode-core-imported-sample",
+      "mode": "topic_mode",
+      "label": "Topic Practice",
+      "experience": "core",
+      "itemType": "mixed",
+      "description": "Sample imported topic pack",
+      "items": [
+        {
+          "itemCode": "IMPORTED-TOPIC-0001",
+          "itemType": "reading",
+          "itemSubtype": "short_passage_comprehension",
+          "tocflLevel": "A2",
+          "tbclLevel": 2,
+          "tocflBand": "進階",
+          "indicator": {
+            "code": "R-topic-import",
+            "description": "Imported sample item."
+          },
+          "stem": {
+            "title": "Imported Notice",
+            "contextSentence": "This is a sample uploaded pack.",
+            "text": "The school changed the check-in time to 8:30. Students who arrive late must call first."
+          },
+          "questionText": "What should late students do first?",
+          "options": [
+            { "optionKey": "A", "optionText": "Call first", "optionOrder": 1 },
+            { "optionKey": "B", "optionText": "Go home", "optionOrder": 2 },
+            { "optionKey": "C", "optionText": "Skip class forever", "optionOrder": 3 },
+            { "optionKey": "D", "optionText": "Wait outside all day", "optionOrder": 4 }
+          ],
+          "answerOptionKey": "A",
+          "explanationText": "The notice clearly says late students must call first.",
+          "quality": {
+            "fairnessStatus": "passed",
+            "originalityStatus": "passed",
+            "logicStatus": "passed"
+          },
+          "superLevelWordAudit": []
+        }
+      ]
+    }
+  ]
+}
