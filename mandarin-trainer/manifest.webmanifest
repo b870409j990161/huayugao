@@ -1,0 +1,17 @@
+{
+  "name": "華語分級刷題",
+  "short_name": "華語刷題",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f7faf8",
+  "theme_color": "#255c4f",
+  "lang": "zh-Hant",
+  "icons": [
+    {
+      "src": "./assets/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
